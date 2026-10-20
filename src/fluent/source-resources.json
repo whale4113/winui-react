@@ -1,0 +1,2742 @@
+{
+  "source": "microsoft-ui-xaml/controls/dev/CommonStyles/Common_themeresources_any.xaml",
+  "referenceRevision": "09cfc8ff3fbf556166dd813ae9b81646716f54bf",
+  "colorsHash": "c53237dd0bcab51ab4892d3f91f321a3d864e91412d55ca47e64e6da2bc8c4b8",
+  "themes": {
+    "Light": {
+      "TextFillColorPrimary": "#000000E4",
+      "TextFillColorSecondary": "#0000009E",
+      "TextFillColorTertiary": "#00000072",
+      "TextFillColorDisabled": "#0000005C",
+      "TextFillColorInverse": "#FFFFFF",
+      "AccentTextFillColorDisabled": "#0000005C",
+      "TextOnAccentFillColorSelectedText": "#FFFFFF",
+      "TextOnAccentFillColorPrimary": "#FFFFFF",
+      "TextOnAccentFillColorSecondary": "#FFFFFFB3",
+      "TextOnAccentFillColorDisabled": "#FFFFFF",
+      "ControlFillColorDefault": "#FFFFFFB3",
+      "ControlFillColorSecondary": "#F9F9F980",
+      "ControlFillColorTertiary": "#F9F9F94D",
+      "ControlFillColorQuarternary": "#F3F3F3C2",
+      "ControlFillColorDisabled": "#F9F9F94D",
+      "ControlFillColorTransparent": "#FFFFFF00",
+      "ControlFillColorInputActive": "#FFFFFF",
+      "ControlStrongFillColorDefault": "#00000072",
+      "ControlStrongFillColorDisabled": "#00000051",
+      "ControlSolidFillColorDefault": "#FFFFFF",
+      "SubtleFillColorTransparent": "#FFFFFF00",
+      "SubtleFillColorSecondary": "#00000009",
+      "SubtleFillColorTertiary": "#00000006",
+      "SubtleFillColorDisabled": "#FFFFFF00",
+      "ControlAltFillColorTransparent": "#FFFFFF00",
+      "ControlAltFillColorSecondary": "#00000006",
+      "ControlAltFillColorTertiary": "#0000000F",
+      "ControlAltFillColorQuarternary": "#00000018",
+      "ControlAltFillColorDisabled": "#FFFFFF00",
+      "ControlOnImageFillColorDefault": "#FFFFFFC9",
+      "ControlOnImageFillColorSecondary": "#F3F3F3",
+      "ControlOnImageFillColorTertiary": "#EBEBEB",
+      "ControlOnImageFillColorDisabled": "#FFFFFF00",
+      "AccentFillColorDisabled": "#00000037",
+      "ControlStrokeColorDefault": "#0000000F",
+      "ControlStrokeColorSecondary": "#00000029",
+      "ControlStrokeColorOnAccentDefault": "#FFFFFF14",
+      "ControlStrokeColorOnAccentSecondary": "#00000066",
+      "ControlStrokeColorOnAccentTertiary": "#00000037",
+      "ControlStrokeColorOnAccentDisabled": "#0000000F",
+      "ControlStrokeColorForStrongFillWhenOnImage": "#FFFFFF59",
+      "CardStrokeColorDefault": "#0000000F",
+      "CardStrokeColorDefaultSolid": "#EBEBEB",
+      "ControlStrongStrokeColorDefault": "#00000072",
+      "ControlStrongStrokeColorDisabled": "#00000037",
+      "SurfaceStrokeColorDefault": "#75757566",
+      "SurfaceStrokeColorFlyout": "#0000000F",
+      "SurfaceStrokeColorInverse": "#FFFFFF15",
+      "DividerStrokeColorDefault": "#0000000F",
+      "FocusStrokeColorOuter": "#000000E4",
+      "FocusStrokeColorInner": "#FFFFFFB3",
+      "CardBackgroundFillColorDefault": "#FFFFFFB3",
+      "CardBackgroundFillColorSecondary": "#F6F6F680",
+      "CardBackgroundFillColorTertiary": "#FFFFFF",
+      "SmokeFillColorDefault": "#0000004D",
+      "LayerFillColorDefault": "#FFFFFF80",
+      "LayerFillColorAlt": "#FFFFFF",
+      "LayerOnAcrylicFillColorDefault": "#FFFFFF40",
+      "LayerOnAccentAcrylicFillColorDefault": "#FFFFFF40",
+      "LayerOnMicaBaseAltFillColorDefault": "#FFFFFFB3",
+      "LayerOnMicaBaseAltFillColorSecondary": "#0000000A",
+      "LayerOnMicaBaseAltFillColorTertiary": "#F9F9F9",
+      "LayerOnMicaBaseAltFillColorTransparent": "#00000000",
+      "SolidBackgroundFillColorBase": "#F3F3F3",
+      "SolidBackgroundFillColorSecondary": "#EEEEEE",
+      "SolidBackgroundFillColorTertiary": "#F9F9F9",
+      "SolidBackgroundFillColorQuarternary": "#FFFFFF",
+      "SolidBackgroundFillColorQuinary": "#FDFDFD",
+      "SolidBackgroundFillColorSenary": "#FFFFFF",
+      "SolidBackgroundFillColorTransparent": "#F3F3F300",
+      "SolidBackgroundFillColorBaseAlt": "#DADADA",
+      "SystemFillColorSuccess": "#0F7B0F",
+      "SystemFillColorCaution": "#9D5D00",
+      "SystemFillColorCritical": "#C42B1C",
+      "SystemFillColorNeutral": "#00000072",
+      "SystemFillColorSolidNeutral": "#8A8A8A",
+      "SystemFillColorAttentionBackground": "#F6F6F680",
+      "SystemFillColorSuccessBackground": "#DFF6DD",
+      "SystemFillColorCautionBackground": "#FFF4CE",
+      "SystemFillColorCriticalBackground": "#FDE7E9",
+      "SystemFillColorNeutralBackground": "#00000006",
+      "SystemFillColorSolidAttentionBackground": "#F7F7F7",
+      "SystemFillColorSolidNeutralBackground": "#F3F3F3"
+    },
+    "Default": {
+      "TextFillColorPrimary": "#FFFFFF",
+      "TextFillColorSecondary": "#FFFFFFC5",
+      "TextFillColorTertiary": "#FFFFFF87",
+      "TextFillColorDisabled": "#FFFFFF5D",
+      "TextFillColorInverse": "#000000E4",
+      "AccentTextFillColorDisabled": "#FFFFFF5D",
+      "TextOnAccentFillColorSelectedText": "#FFFFFF",
+      "TextOnAccentFillColorPrimary": "#000000",
+      "TextOnAccentFillColorSecondary": "#00000080",
+      "TextOnAccentFillColorDisabled": "#FFFFFF87",
+      "ControlFillColorDefault": "#FFFFFF0F",
+      "ControlFillColorSecondary": "#FFFFFF15",
+      "ControlFillColorTertiary": "#FFFFFF08",
+      "ControlFillColorQuarternary": "#FFFFFF0F",
+      "ControlFillColorDisabled": "#FFFFFF0B",
+      "ControlFillColorTransparent": "#FFFFFF00",
+      "ControlFillColorInputActive": "#1E1E1EB3",
+      "ControlStrongFillColorDefault": "#FFFFFF8B",
+      "ControlStrongFillColorDisabled": "#FFFFFF3F",
+      "ControlSolidFillColorDefault": "#454545",
+      "SubtleFillColorTransparent": "#FFFFFF00",
+      "SubtleFillColorSecondary": "#FFFFFF0F",
+      "SubtleFillColorTertiary": "#FFFFFF0A",
+      "SubtleFillColorDisabled": "#FFFFFF00",
+      "ControlAltFillColorTransparent": "#FFFFFF00",
+      "ControlAltFillColorSecondary": "#00000019",
+      "ControlAltFillColorTertiary": "#FFFFFF0B",
+      "ControlAltFillColorQuarternary": "#FFFFFF12",
+      "ControlAltFillColorDisabled": "#FFFFFF00",
+      "ControlOnImageFillColorDefault": "#1C1C1CB3",
+      "ControlOnImageFillColorSecondary": "#1A1A1A",
+      "ControlOnImageFillColorTertiary": "#131313",
+      "ControlOnImageFillColorDisabled": "#1E1E1E",
+      "AccentFillColorDisabled": "#FFFFFF28",
+      "ControlStrokeColorDefault": "#FFFFFF12",
+      "ControlStrokeColorSecondary": "#FFFFFF18",
+      "ControlStrokeColorOnAccentDefault": "#FFFFFF14",
+      "ControlStrokeColorOnAccentSecondary": "#00000023",
+      "ControlStrokeColorOnAccentTertiary": "#00000037",
+      "ControlStrokeColorOnAccentDisabled": "#00000033",
+      "ControlStrokeColorForStrongFillWhenOnImage": "#0000006B",
+      "CardStrokeColorDefault": "#00000019",
+      "CardStrokeColorDefaultSolid": "#1C1C1C",
+      "ControlStrongStrokeColorDefault": "#FFFFFF8B",
+      "ControlStrongStrokeColorDisabled": "#FFFFFF28",
+      "SurfaceStrokeColorDefault": "#75757566",
+      "SurfaceStrokeColorFlyout": "#00000033",
+      "SurfaceStrokeColorInverse": "#0000000F",
+      "DividerStrokeColorDefault": "#FFFFFF15",
+      "FocusStrokeColorOuter": "#FFFFFF",
+      "FocusStrokeColorInner": "#000000B3",
+      "CardBackgroundFillColorDefault": "#FFFFFF0D",
+      "CardBackgroundFillColorSecondary": "#FFFFFF08",
+      "CardBackgroundFillColorTertiary": "#FFFFFF12",
+      "SmokeFillColorDefault": "#0000004D",
+      "LayerFillColorDefault": "#3A3A3A4C",
+      "LayerFillColorAlt": "#FFFFFF0D",
+      "LayerOnAcrylicFillColorDefault": "#FFFFFF09",
+      "LayerOnAccentAcrylicFillColorDefault": "#FFFFFF09",
+      "LayerOnMicaBaseAltFillColorDefault": "#3A3A3A73",
+      "LayerOnMicaBaseAltFillColorSecondary": "#FFFFFF0F",
+      "LayerOnMicaBaseAltFillColorTertiary": "#2C2C2C",
+      "LayerOnMicaBaseAltFillColorTransparent": "#FFFFFF00",
+      "SolidBackgroundFillColorBase": "#202020",
+      "SolidBackgroundFillColorSecondary": "#1C1C1C",
+      "SolidBackgroundFillColorTertiary": "#282828",
+      "SolidBackgroundFillColorQuarternary": "#2C2C2C",
+      "SolidBackgroundFillColorQuinary": "#333333",
+      "SolidBackgroundFillColorSenary": "#373737",
+      "SolidBackgroundFillColorTransparent": "#20202000",
+      "SolidBackgroundFillColorBaseAlt": "#0A0A0A",
+      "SystemFillColorSuccess": "#6CCB5F",
+      "SystemFillColorCaution": "#FCE100",
+      "SystemFillColorCritical": "#FF99A4",
+      "SystemFillColorNeutral": "#FFFFFF8B",
+      "SystemFillColorSolidNeutral": "#9D9D9D",
+      "SystemFillColorAttentionBackground": "#FFFFFF08",
+      "SystemFillColorSuccessBackground": "#393D1B",
+      "SystemFillColorCautionBackground": "#433519",
+      "SystemFillColorCriticalBackground": "#442726",
+      "SystemFillColorNeutralBackground": "#FFFFFF08",
+      "SystemFillColorSolidAttentionBackground": "#2E2E2E",
+      "SystemFillColorSolidNeutralBackground": "#2E2E2E"
+    }
+  },
+  "resources": [
+    {
+      "file": "microsoft-ui-xaml/controls/dev/AnnotatedScrollBar/AnnotatedScrollBar_themeresources.xaml",
+      "name": "AnnotatedScrollBar",
+      "variant": "standard",
+      "styles": [
+        "RepeatButton"
+      ],
+      "metrics": {
+        "ScrollButtonStyleBorderThickness": "1",
+        "ThumbHeight": "3",
+        "ThumbWidth": "30",
+        "LabelsGridMinWidth": "44",
+        "AnnotatedScrollBarTooltipMaxWidth": "360",
+        "AnnotatedScrollBarTooltipMinHeight": "40",
+        "ScrollButtonFontSize": "8",
+        "ThumbCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/AnnotatedScrollBar/AnnotatedScrollBar_themeresources_perf2026.xaml",
+      "name": "AnnotatedScrollBar",
+      "variant": "perf2026",
+      "styles": [
+        "RepeatButton"
+      ],
+      "metrics": {
+        "ScrollButtonStyleBorderThickness": "1",
+        "ThumbHeight": "3",
+        "ThumbWidth": "30",
+        "LabelsGridMinWidth": "44",
+        "AnnotatedScrollBarTooltipMaxWidth": "360",
+        "AnnotatedScrollBarTooltipMinHeight": "40",
+        "ScrollButtonFontSize": "8",
+        "ThumbCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/AutoSuggestBox/AutoSuggestBox_themeresources.xaml",
+      "name": "AutoSuggestBox",
+      "variant": "standard",
+      "styles": [
+        "TextBox",
+        "Button",
+        "Button",
+        "AutoSuggestBox",
+        "AutoSuggestBox"
+      ],
+      "metrics": {
+        "AutoSuggestBoxIconFontSize": "12",
+        "AutoSuggestBoxTopHeaderMargin": "0,0,0,8",
+        "AutoSuggestBoxInnerButtonMargin": "1,3",
+        "AutoSuggestBoxDeleteButtonMargin": "0,4",
+        "AutoSuggestBoxQueryButtonPadding": "3,2",
+        "AutoSuggestBoxLeftButtonMargin": "3",
+        "AutoSuggestBoxRightButtonMargin": "4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/AutoSuggestBox/AutoSuggestBox_themeresources_perf2026.xaml",
+      "name": "AutoSuggestBox",
+      "variant": "perf2026",
+      "styles": [
+        "TextBox",
+        "Button",
+        "Button",
+        "AutoSuggestBox",
+        "AutoSuggestBox"
+      ],
+      "metrics": {
+        "AutoSuggestBoxIconFontSize": "12",
+        "AutoSuggestBoxTopHeaderMargin": "0,0,0,8",
+        "AutoSuggestBoxInnerButtonMargin": "1,3",
+        "AutoSuggestBoxDeleteButtonMargin": "0,4",
+        "AutoSuggestBoxQueryButtonPadding": "3,2",
+        "AutoSuggestBoxLeftButtonMargin": "3",
+        "AutoSuggestBoxRightButtonMargin": "4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/Breadcrumb/BreadcrumbBar_themeresources.xaml",
+      "name": "BreadcrumbBar",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "BreadcrumbBarChevronPadding": "2,0",
+        "BreadcrumbBarEllipsisFlyoutPresenterBorderThemeThickness": "2",
+        "BreadcrumbBarChevronFontSize": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ColorPicker/ColorPicker_themeresources.xaml",
+      "name": "ColorPicker",
+      "variant": "standard",
+      "styles": [
+        "Shape"
+      ],
+      "metrics": {
+        "ColorPickerSliderCornerRadius": "6",
+        "ColorPickerSliderInnerThumbWidth": "10",
+        "ColorPickerSliderInnerThumbHeight": "10",
+        "ColorPickerVerticalOrientationMinWidth": "312",
+        "ColorPickerVerticalOrientationMaxWidth": "392",
+        "ColorPickerVerticalOrientationMinHeight": "312",
+        "ColorPickerVerticalOrientationMaxHeight": "392",
+        "ColorPickerTextInputHorizontalOrientationMargin": "122"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ComboBox/ComboBox_themeresources.xaml",
+      "name": "ComboBox",
+      "variant": "standard",
+      "styles": [
+        "Rectangle",
+        "ComboBox",
+        "ComboBox",
+        "ComboBoxItem",
+        "ComboBoxItem",
+        "TextBox"
+      ],
+      "metrics": {
+        "ComboBoxDropdownBorderPadding": "0",
+        "ComboBoxArrowThemeFontSize": "21",
+        "ComboBoxThemeMinWidth": "64",
+        "ComboBoxPopupThemeMinWidth": "80",
+        "ComboBoxPopupThemeTouchMinWidth": "240",
+        "ComboBoxItemPillHeight": "16",
+        "ComboBoxItemPillWidth": "3",
+        "ComboBoxItemPillMinScale": "0.625",
+        "ComboBoxMinHeight": "32",
+        "ComboBoxBorderThemeThickness": "1",
+        "ComboBoxDropdownBorderThickness": "1",
+        "ComboBoxHeaderThemeMargin": "0,0,0,4",
+        "ComboBoxPopupBorderThemeThickness": "2",
+        "ComboBoxItemThemePadding": "11,5,11,7",
+        "ComboBoxItemThemeTouchPadding": "11,11,11,13",
+        "ComboBoxItemThemeGameControllerPadding": "11,11,11,13",
+        "ComboBoxBackgroundBorderThicknessFocused": "2",
+        "ComboBoxDropdownContentMargin": "0,4",
+        "ComboBoxTopHeaderMargin": "0,0,0,8",
+        "ComboBoxPadding": "12,5,0,7",
+        "ComboBoxEditableTextPadding": "11,5,38,6",
+        "ComboBoxHiglightBorderCornerRadius": "7",
+        "ComboBoxDropDownButtonBackgroundCornerRadius": "4",
+        "ComboBoxItemCornerRadius": "3",
+        "ComboBoxItemPillCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ComboBox/ComboBox_themeresources_perf2026.xaml",
+      "name": "ComboBox",
+      "variant": "perf2026",
+      "styles": [
+        "Rectangle",
+        "ComboBox",
+        "ComboBox",
+        "ComboBoxItem",
+        "ComboBoxItem",
+        "TextBox"
+      ],
+      "metrics": {
+        "ComboBoxDropdownBorderPadding": "0",
+        "ComboBoxArrowThemeFontSize": "21",
+        "ComboBoxThemeMinWidth": "64",
+        "ComboBoxPopupThemeMinWidth": "80",
+        "ComboBoxPopupThemeTouchMinWidth": "240",
+        "ComboBoxItemPillHeight": "16",
+        "ComboBoxItemPillWidth": "3",
+        "ComboBoxItemPillMinScale": "0.625",
+        "ComboBoxMinHeight": "32",
+        "ComboBoxBorderThemeThickness": "1",
+        "ComboBoxDropdownBorderThickness": "1",
+        "ComboBoxHeaderThemeMargin": "0,0,0,4",
+        "ComboBoxPopupBorderThemeThickness": "2",
+        "ComboBoxItemThemePadding": "11,5,11,7",
+        "ComboBoxItemThemeTouchPadding": "11,11,11,13",
+        "ComboBoxItemThemeGameControllerPadding": "11,11,11,13",
+        "ComboBoxBackgroundBorderThicknessFocused": "2",
+        "ComboBoxDropdownContentMargin": "0,4",
+        "ComboBoxTopHeaderMargin": "0,0,0,8",
+        "ComboBoxPadding": "12,5,0,7",
+        "ComboBoxEditableTextPadding": "11,5,38,6",
+        "ComboBoxHiglightBorderCornerRadius": "7",
+        "ComboBoxDropDownButtonBackgroundCornerRadius": "4",
+        "ComboBoxItemCornerRadius": "3",
+        "ComboBoxItemPillCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommandBarFlyout/CommandBarFlyout_themeresources.xaml",
+      "name": "CommandBarFlyout",
+      "variant": "standard",
+      "styles": [
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "CommandBarOverflowPresenter",
+        "Button",
+        "primitives:CommandBarFlyoutCommandBar",
+        "AppBarButton",
+        "AppBarToggleButton"
+      ],
+      "metrics": {
+        "CommandBarFlyoutBorderThemeThickness": "1",
+        "CommandBarFlyoutBorderUpThemeThickness": "1,1,1,0",
+        "CommandBarFlyoutBorderDownThemeThickness": "1,0,1,1",
+        "CommandBarFlyoutAppBarButtonInnerBorderMargin": "2",
+        "CommandBarFlyoutAppBarEllipsisButtonInnerBorderMargin": "2,2,6,2"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommandBarFlyout/CommandBarFlyout_themeresources_perf2026.xaml",
+      "name": "CommandBarFlyout",
+      "variant": "perf2026",
+      "styles": [
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "CommandBarOverflowPresenter",
+        "Button",
+        "primitives:CommandBarFlyoutCommandBar",
+        "AppBarButton",
+        "AppBarToggleButton"
+      ],
+      "metrics": {
+        "CommandBarFlyoutBorderThemeThickness": "1",
+        "CommandBarFlyoutBorderUpThemeThickness": "1,1,1,0",
+        "CommandBarFlyoutBorderDownThemeThickness": "1,0,1,1",
+        "CommandBarFlyoutAppBarButtonInnerBorderMargin": "2",
+        "CommandBarFlyoutAppBarEllipsisButtonInnerBorderMargin": "2,2,6,2"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/AppBarButton_themeresources.xaml",
+      "name": "AppBarButton",
+      "variant": "standard",
+      "styles": [
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarButton"
+      ],
+      "metrics": {
+        "AppBarButtonLabelFontSize": "12",
+        "AppBarButtonSubItemChevronFontSize": "8",
+        "AppBarButtonSecondarySubItemChevronFontSize": "12",
+        "AppBarButtonSubItemChevronMargin": "-23,20,12,0",
+        "AppBarButtonSubItemChevronLabelOnRightMargin": "-7,20,12,0",
+        "AppBarButtonSecondarySubItemChevronMargin": "0,0,16,0",
+        "AppBarButtonContentViewboxMargin": "12,16,0,10",
+        "AppBarButtonContentViewboxCompactMargin": "0,12,0,12",
+        "AppBarButtonContentViewboxCollapsedMargin": "0,16,0,2",
+        "AppBarButtonOverflowTextTouchMargin": "0,9,0,12",
+        "AppBarButtonOverflowTextLabelPadding": "0,5,0,8",
+        "AppBarButtonTextLabelMargin": "2,0,2,8",
+        "AppBarButtonTextLabelOnRightMargin": "8,16,12,10",
+        "AppBarButtonInnerBorderMargin": "2,6,2,6",
+        "AppBarButtonInnerBorderCompactMargin": "2,6,2,22",
+        "AppBarButtonInnerBorderOverflowMargin": "4,0,4,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/AppBarButton_themeresources_perf2026.xaml",
+      "name": "AppBarButton",
+      "variant": "perf2026",
+      "styles": [
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarButton"
+      ],
+      "metrics": {
+        "AppBarButtonLabelFontSize": "12",
+        "AppBarButtonSubItemChevronFontSize": "8",
+        "AppBarButtonSecondarySubItemChevronFontSize": "12",
+        "AppBarButtonSubItemChevronMargin": "-23,20,12,0",
+        "AppBarButtonSubItemChevronLabelOnRightMargin": "-7,20,12,0",
+        "AppBarButtonSecondarySubItemChevronMargin": "0,0,16,0",
+        "AppBarButtonContentViewboxMargin": "12,16,0,10",
+        "AppBarButtonContentViewboxCompactMargin": "0,12,0,12",
+        "AppBarButtonContentViewboxCollapsedMargin": "0,16,0,2",
+        "AppBarButtonOverflowTextTouchMargin": "0,9,0,12",
+        "AppBarButtonOverflowTextLabelPadding": "0,5,0,8",
+        "AppBarButtonTextLabelMargin": "2,0,2,8",
+        "AppBarButtonTextLabelOnRightMargin": "8,16,12,10",
+        "AppBarButtonInnerBorderMargin": "2,6,2,6",
+        "AppBarButtonInnerBorderCompactMargin": "2,6,2,22",
+        "AppBarButtonInnerBorderOverflowMargin": "4,0,4,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/AppBarSeparator_themeresources.xaml",
+      "name": "AppBarSeparator",
+      "variant": "standard",
+      "styles": [
+        "AppBarSeparator",
+        "AppBarSeparator"
+      ],
+      "metrics": {
+        "AppBarSeparatorMargin": "2,8,2,8",
+        "AppBarOverflowSeparatorMargin": "0,4,0,4",
+        "AppBarSeparatorWidth": "1",
+        "AppBarOverflowSeparatorHeight": "1",
+        "AppBarSeparatorCornerRadius": "0.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/AppBarToggleButton_themeresources.xaml",
+      "name": "AppBarToggleButton",
+      "variant": "standard",
+      "styles": [
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton"
+      ],
+      "metrics": {
+        "AppBarToggleButtonBorderThemeThickness": "1",
+        "AppBarToggleButtonOverflowTextTouchMargin": "0,9,0,12",
+        "AppBarToggleButtonOverflowCheckTouchMargin": "12,10,12,10",
+        "AppBarToggleButtonOverflowCheckMargin": "12,4,12,4",
+        "AppBarToggleButtonTextLabelMargin": "2,0,2,8",
+        "AppBarToggleButtonTextLabelOnRightMargin": "8,16,12,10",
+        "AppBarToggleButtonOverflowTextLabelPadding": "0,5,0,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/AppBarToggleButton_themeresources_perf2026.xaml",
+      "name": "AppBarToggleButton",
+      "variant": "perf2026",
+      "styles": [
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton"
+      ],
+      "metrics": {
+        "AppBarToggleButtonBorderThemeThickness": "1",
+        "AppBarToggleButtonOverflowTextTouchMargin": "0,9,0,12",
+        "AppBarToggleButtonOverflowCheckTouchMargin": "12,10,12,10",
+        "AppBarToggleButtonOverflowCheckMargin": "12,4,12,4",
+        "AppBarToggleButtonTextLabelMargin": "2,0,2,8",
+        "AppBarToggleButtonTextLabelOnRightMargin": "8,16,12,10",
+        "AppBarToggleButtonOverflowTextLabelPadding": "0,5,0,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Button_themeresources.xaml",
+      "name": "Button",
+      "variant": "standard",
+      "styles": [
+        "Button",
+        "Button",
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "ButtonBorderThemeThickness": "1",
+        "ButtonPadding": "11,5,11,6"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Button_themeresources_perf2026.xaml",
+      "name": "Button",
+      "variant": "perf2026",
+      "styles": [
+        "Button",
+        "Button",
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "ButtonBorderThemeThickness": "1",
+        "ButtonPadding": "11,5,11,6"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CalendarDatePicker_themeresources.xaml",
+      "name": "CalendarDatePicker",
+      "variant": "standard",
+      "styles": [
+        "CalendarDatePicker",
+        "CalendarDatePicker",
+        "FlyoutPresenter"
+      ],
+      "metrics": {
+        "CalendarDatePickerBorderThemeThickness": "1",
+        "CalendarDatePickerTopHeaderMargin": "0,0,0,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CalendarDatePicker_themeresources_perf2026.xaml",
+      "name": "CalendarDatePicker",
+      "variant": "perf2026",
+      "styles": [
+        "CalendarDatePicker",
+        "CalendarDatePicker",
+        "FlyoutPresenter"
+      ],
+      "metrics": {
+        "CalendarDatePickerBorderThemeThickness": "1",
+        "CalendarDatePickerTopHeaderMargin": "0,0,0,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CalendarView_themeresources.xaml",
+      "name": "CalendarView",
+      "variant": "standard",
+      "styles": [
+        "CalendarViewDayItem",
+        "CalendarView",
+        "CalendarView",
+        "TextBlock",
+        "Button",
+        "Button",
+        "ScrollViewer",
+        "CalendarView",
+        "TextBlock",
+        "Button",
+        "ScrollViewer"
+      ],
+      "metrics": {
+        "CalendarViewFirstOfMonthLabelFontSize": "8",
+        "CalendarViewFirstOfYearDecadeLabelFontSize": "8",
+        "CalendarViewHeaderNavigationButtonFontSize": "14",
+        "CalendarViewNavigationButtonFontSize": "8",
+        "CalendarViewDayItemMargin": "0,3,0,0",
+        "CalendarViewWeekDayMargin": "1",
+        "CalendarViewWeekDayPadding": "12",
+        "CalendarViewMonthYearItemMargin": "0",
+        "CalendarViewFirstOfMonthLabelMargin": "0,2,0,0",
+        "CalendarViewFirstOfYearDecadeLabelMargin": "0,9,0,0",
+        "CalendarViewHeaderNavigationButtonPadding": "8,7,8,8",
+        "CalendarViewNavigationButtonPadding": "12,11.5,12,11.5",
+        "CalendarViewHeaderNavigationButtonMargin": "7,6,3,7",
+        "CalendarViewNavigationPreviousButtonMargin": "3,6,3,7",
+        "CalendarViewNavigationNextButtonMargin": "3,6,7,7",
+        "CalendarViewNavigationButtonFocusVisualMargin": "-2",
+        "CalendarViewNavigationButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CalendarView_themeresources_perf2026.xaml",
+      "name": "CalendarView",
+      "variant": "perf2026",
+      "styles": [
+        "CalendarViewDayItem",
+        "CalendarView",
+        "CalendarView",
+        "TextBlock",
+        "Button",
+        "Button",
+        "ScrollViewer",
+        "CalendarView",
+        "TextBlock",
+        "Button",
+        "ScrollViewer"
+      ],
+      "metrics": {
+        "CalendarViewFirstOfMonthLabelFontSize": "8",
+        "CalendarViewFirstOfYearDecadeLabelFontSize": "8",
+        "CalendarViewHeaderNavigationButtonFontSize": "14",
+        "CalendarViewNavigationButtonFontSize": "8",
+        "CalendarViewDayItemMargin": "0,3,0,0",
+        "CalendarViewWeekDayMargin": "1",
+        "CalendarViewWeekDayPadding": "12",
+        "CalendarViewMonthYearItemMargin": "0",
+        "CalendarViewFirstOfMonthLabelMargin": "0,2,0,0",
+        "CalendarViewFirstOfYearDecadeLabelMargin": "0,9,0,0",
+        "CalendarViewHeaderNavigationButtonPadding": "8,7,8,8",
+        "CalendarViewNavigationButtonPadding": "12,11.5,12,11.5",
+        "CalendarViewHeaderNavigationButtonMargin": "7,6,3,7",
+        "CalendarViewNavigationPreviousButtonMargin": "3,6,3,7",
+        "CalendarViewNavigationNextButtonMargin": "3,6,7,7",
+        "CalendarViewNavigationButtonFocusVisualMargin": "-2",
+        "CalendarViewNavigationButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CheckBox_themeresources.xaml",
+      "name": "CheckBox",
+      "variant": "standard",
+      "styles": [
+        "CheckBox",
+        "CheckBox"
+      ],
+      "metrics": {
+        "CheckBoxBorderThickness": "1",
+        "CheckBoxSize": "20",
+        "CheckBoxGlyphSize": "12",
+        "CheckBoxHeight": "32",
+        "CheckBoxMinWidth": "120",
+        "CheckBoxPadding": "8,5,0,0",
+        "CheckBoxFocusVisualMargin": "-7,-3,-7,-3"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CheckBox_themeresources_perf2026.xaml",
+      "name": "CheckBox",
+      "variant": "perf2026",
+      "styles": [
+        "CheckBox",
+        "CheckBox"
+      ],
+      "metrics": {
+        "CheckBoxBorderThickness": "1",
+        "CheckBoxSize": "20",
+        "CheckBoxGlyphSize": "12",
+        "CheckBoxHeight": "32",
+        "CheckBoxMinWidth": "120",
+        "CheckBoxPadding": "8,5,0,0",
+        "CheckBoxFocusVisualMargin": "-7,-3,-7,-3"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CommandBar_themeresources.xaml",
+      "name": "CommandBar",
+      "variant": "standard",
+      "styles": [
+        "CommandBar",
+        "CommandBar",
+        "controls:SplitButton",
+        "controls:ToggleSplitButton",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "CommandBarOverflowPresenter",
+        "CommandBarOverflowPresenter",
+        "CommandBar",
+        "Button"
+      ],
+      "metrics": {
+        "CommandBarOverflowMinWidth": "160",
+        "CommandBarOverflowTouchMinWidth": "240",
+        "CommandBarOverflowMaxWidth": "480",
+        "CommandBarOverflowMaxHeight": "198",
+        "CommandBarBorderThicknessOpen": "1",
+        "CommandBarOverflowPresenterBorderThickness": "1",
+        "CommandBarOverflowPresenterBorderDownThickness": "0,0,0,1",
+        "CommandBarOverflowPresenterBorderUpThickness": "0,1,0,0",
+        "CommandBarOverflowPresenterBorderPadding": "0",
+        "CommandBarOverflowPresenterBorderDownPadding": "0",
+        "CommandBarOverflowPresenterBorderUpPadding": "0",
+        "AppBarThemeMinHeight": "64",
+        "AppBarThemeCompactHeight": "48",
+        "AppBarEllipsisButtonInnerBorderMargin": "2,6,6,6",
+        "AppBarMoreButtonColumnMinWidth": "6",
+        "CommandBarOverflowPresenterMargin": "0,4,0,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CommandBar_themeresources_perf2026.xaml",
+      "name": "CommandBar",
+      "variant": "perf2026",
+      "styles": [
+        "CommandBar",
+        "CommandBar",
+        "controls:SplitButton",
+        "controls:ToggleSplitButton",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "CommandBarOverflowPresenter",
+        "CommandBarOverflowPresenter",
+        "CommandBar",
+        "Button"
+      ],
+      "metrics": {
+        "CommandBarOverflowMinWidth": "160",
+        "CommandBarOverflowTouchMinWidth": "240",
+        "CommandBarOverflowMaxWidth": "480",
+        "CommandBarOverflowMaxHeight": "198",
+        "CommandBarBorderThicknessOpen": "1",
+        "CommandBarOverflowPresenterBorderThickness": "1",
+        "CommandBarOverflowPresenterBorderDownThickness": "0,0,0,1",
+        "CommandBarOverflowPresenterBorderUpThickness": "0,1,0,0",
+        "CommandBarOverflowPresenterBorderPadding": "0",
+        "CommandBarOverflowPresenterBorderDownPadding": "0",
+        "CommandBarOverflowPresenterBorderUpPadding": "0",
+        "AppBarThemeMinHeight": "64",
+        "AppBarThemeCompactHeight": "48",
+        "AppBarEllipsisButtonInnerBorderMargin": "2,6,6,6",
+        "AppBarMoreButtonColumnMinWidth": "6",
+        "CommandBarOverflowPresenterMargin": "0,4,0,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Common_themeresources.xaml",
+      "name": "Common",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "TextControlBorderThemeThickness": "1",
+        "TextControlBorderThemeThicknessFocused": "2",
+        "TextControlThemePadding": "10,5,6,6",
+        "DateTimeFlyoutBorderPadding": "0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Common_themeresources_any.xaml",
+      "name": "Common",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ContentDialog_themeresources.xaml",
+      "name": "ContentDialog",
+      "variant": "standard",
+      "styles": [
+        "ContentDialog",
+        "ContentDialog"
+      ],
+      "metrics": {
+        "ContentDialogBorderWidth": "1",
+        "ContentDialogMinWidth": "320",
+        "ContentDialogMaxWidth": "548",
+        "ContentDialogMinHeight": "184",
+        "ContentDialogMaxHeight": "756",
+        "ContentDialogTitleMargin": "0,0,0,12",
+        "ContentDialogPadding": "24",
+        "ContentDialogSeparatorThickness": "0,0,0,1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/CornerRadius_themeresources.xaml",
+      "name": "CornerRadius",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "ControlCornerRadius": "4,4,4,4",
+        "OverlayCornerRadius": "8,8,8,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/DatePicker_themeresources.xaml",
+      "name": "DatePicker",
+      "variant": "standard",
+      "styles": [
+        "DatePicker",
+        "DatePicker",
+        "Button",
+        "DatePickerFlyoutPresenter",
+        "DatePickerFlyoutPresenter"
+      ],
+      "metrics": {
+        "DatePickerSelectorThemeMinWidth": "80",
+        "DatePickerSpacerThemeWidth": "1",
+        "DatePickerSpacingThemeWidth": "20",
+        "DatePickerSpacingThemeHeight": "20",
+        "DatePickerHeaderThemeMargin": "0,0,0,4",
+        "DatePickerBorderThemeThickness": "1",
+        "DatePickerTopHeaderMargin": "0,0,0,4",
+        "DatePickerFlyoutPresenterHighlightHeight": "40",
+        "DatePickerFlyoutPresenterItemHeight": "40",
+        "DatePickerFlyoutPresenterAcceptDismissHostGridHeight": "41",
+        "DatePickerThemeMinWidth": "296",
+        "DatePickerThemeMaxWidth": "456",
+        "DatePickerFlyoutPresenterItemPadding": "0,3,0,6",
+        "DatePickerFlyoutPresenterMonthPadding": "9,3,0,6",
+        "DatePickerHostPadding": "0,3,0,6",
+        "DatePickerHostMonthPadding": "9,3,0,6",
+        "DatePickerFlyoutPresenterAcceptMargin": "4,4,2,4",
+        "DatePickerFlyoutPresenterDismissMargin": "2,4,4,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/DatePicker_themeresources_perf2026.xaml",
+      "name": "DatePicker",
+      "variant": "perf2026",
+      "styles": [
+        "DatePicker",
+        "DatePicker",
+        "Button",
+        "DatePickerFlyoutPresenter",
+        "DatePickerFlyoutPresenter"
+      ],
+      "metrics": {
+        "DatePickerSelectorThemeMinWidth": "80",
+        "DatePickerSpacerThemeWidth": "1",
+        "DatePickerSpacingThemeWidth": "20",
+        "DatePickerSpacingThemeHeight": "20",
+        "DatePickerHeaderThemeMargin": "0,0,0,4",
+        "DatePickerBorderThemeThickness": "1",
+        "DatePickerTopHeaderMargin": "0,0,0,4",
+        "DatePickerFlyoutPresenterHighlightHeight": "40",
+        "DatePickerFlyoutPresenterItemHeight": "40",
+        "DatePickerFlyoutPresenterAcceptDismissHostGridHeight": "41",
+        "DatePickerThemeMinWidth": "296",
+        "DatePickerThemeMaxWidth": "456",
+        "DatePickerFlyoutPresenterItemPadding": "0,3,0,6",
+        "DatePickerFlyoutPresenterMonthPadding": "9,3,0,6",
+        "DatePickerHostPadding": "0,3,0,6",
+        "DatePickerHostMonthPadding": "9,3,0,6",
+        "DatePickerFlyoutPresenterAcceptMargin": "4,4,2,4",
+        "DatePickerFlyoutPresenterDismissMargin": "2,4,4,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/DateTimePickerFlyout_themeresources.xaml",
+      "name": "DateTimePickerFlyout",
+      "variant": "standard",
+      "styles": [
+        "ButtonBase",
+        "ButtonBase",
+        "LoopingSelector",
+        "LoopingSelector",
+        "LoopingSelectorItem"
+      ],
+      "metrics": {
+        "LoopingSelectorItemMargin": "4,2,4,2",
+        "LoopingSelectorUpDownButtonMargin": "0",
+        "LoopingSelectorUpDownButtonHeight": "34",
+        "LoopingSelectorUpDownButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/DateTimePickerFlyout_themeresources_perf2026.xaml",
+      "name": "DateTimePickerFlyout",
+      "variant": "perf2026",
+      "styles": [
+        "ButtonBase",
+        "ButtonBase",
+        "LoopingSelector",
+        "LoopingSelector",
+        "LoopingSelectorItem"
+      ],
+      "metrics": {
+        "LoopingSelectorItemMargin": "4,2,4,2",
+        "LoopingSelectorUpDownButtonMargin": "0",
+        "LoopingSelectorUpDownButtonHeight": "34",
+        "LoopingSelectorUpDownButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Deprecated_themeresources.xaml",
+      "name": "Deprecated",
+      "variant": "standard",
+      "styles": [
+        "ProgressBar",
+        "ProgressBar",
+        "primitives:NavigationViewItemPresenter",
+        "primitives:NavigationViewItemPresenter"
+      ],
+      "metrics": {
+        "ToolTipBorderThemePadding": "8,5,8,7",
+        "ProgressBarIndicatorPauseOpacity": "1",
+        "ProgressBarThemeMinHeight": "4",
+        "MenuFlyoutSeparatorThemeHeight": "1",
+        "MenuFlyoutItemCheckGlyphMargin": "12,11,0,13",
+        "FlyoutBorderThemePadding": "0",
+        "ContentDialogButtonMinWidth": "130",
+        "ContentDialogButtonMaxWidth": "202",
+        "ContentDialogButtonMinHeight": "32",
+        "ContentDialogButtonHeight": "32",
+        "ContentDialogTitleMaxHeight": "56",
+        "ContentDialogButton1HostMargin": "0,0,4,0",
+        "ContentDialogButton2HostMargin": "0,0,0,0",
+        "ContentDialogContentMargin": "0,0,0,0",
+        "ContentDialogContentScrollViewerMargin": "0,0,0,0",
+        "ContentDialogCommandSpaceMargin": "0,24,0,0",
+        "CheckBoxBorderThemeThickness": "1",
+        "CheckBoxCheckedStrokeThickness": "1",
+        "ExpanderBorderThickness": "2",
+        "PaneToggleButtonSize": "40",
+        "MenuFlyoutScrollerMargin": "0,4,0,4",
+        "InfoBarActionButtonMinWidth": "96",
+        "InfoBarActionButtonMinHeight": "24",
+        "InfoBarActionButtonPadding": "8,0,8,1",
+        "InfoBarActionButtonCornerRadius": "2",
+        "InfoBarHyperlinkButtonFontSize": "14",
+        "InfoBarHyperlinkButtonMinHeight": "24",
+        "InfoBarHyperlinkButtonPadding": "0,0,0,1",
+        "ExpanderPopinVerticalOffset": "1",
+        "ExpanderChevronWidth": "1",
+        "ExpanderMinHeight": "48",
+        "ExpanderContentPadding": "16",
+        "ExpanderHeaderPadding": "16,0,0,0",
+        "ExpanderDropdownDownBorderThickness": "1,0,1,1",
+        "ExpanderDropdownUpBorderThickness": "1,1,1,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Deprecated_themeresources_any.xaml",
+      "name": "Deprecated",
+      "variant": "standard",
+      "styles": [
+        "primitives:NavigationViewItemPresenter",
+        "primitives:NavigationViewItemPresenter"
+      ],
+      "metrics": {
+        "PaneToggleButtonSize": "40",
+        "MenuFlyoutScrollerMargin": "0,4,0,4",
+        "InfoBarActionButtonMinWidth": "96",
+        "InfoBarActionButtonMinHeight": "24",
+        "InfoBarActionButtonPadding": "8,0,8,1",
+        "InfoBarActionButtonCornerRadius": "2",
+        "InfoBarHyperlinkButtonFontSize": "14",
+        "InfoBarHyperlinkButtonMinHeight": "24",
+        "InfoBarHyperlinkButtonPadding": "0,0,0,1",
+        "ExpanderPopinVerticalOffset": "1",
+        "ExpanderChevronWidth": "1",
+        "ExpanderMinHeight": "48",
+        "ExpanderContentPadding": "16",
+        "ExpanderHeaderPadding": "16,0,0,0",
+        "ExpanderDropdownDownBorderThickness": "1,0,1,1",
+        "ExpanderDropdownUpBorderThickness": "1,1,1,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/FlipViewItem_themeresources.xaml",
+      "name": "FlipViewItem",
+      "variant": "standard",
+      "styles": [
+        "FlipViewItem",
+        "FlipViewItem"
+      ],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/FlipView_themeresources.xaml",
+      "name": "FlipView",
+      "variant": "standard",
+      "styles": [
+        "FlipView",
+        "FlipView"
+      ],
+      "metrics": {
+        "FlipViewButtonBorderThemeThickness": "0",
+        "FlipViewButtonFontSize": "8",
+        "FlipViewButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/FlipView_themeresources_perf2026.xaml",
+      "name": "FlipView",
+      "variant": "perf2026",
+      "styles": [
+        "FlipView",
+        "FlipView"
+      ],
+      "metrics": {
+        "FlipViewButtonBorderThemeThickness": "0",
+        "FlipViewButtonFontSize": "8",
+        "FlipViewButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/FlyoutPresenter_themeresources.xaml",
+      "name": "FlyoutPresenter",
+      "variant": "standard",
+      "styles": [
+        "FlyoutPresenter",
+        "FlyoutPresenter"
+      ],
+      "metrics": {
+        "FlyoutBorderThemeThickness": "1",
+        "FlyoutContentPadding": "16,15,16,17"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/GridViewItem_themeresources.xaml",
+      "name": "GridViewItem",
+      "variant": "standard",
+      "styles": [
+        "GridViewItem",
+        "GridViewItem"
+      ],
+      "metrics": {
+        "GridViewItemCornerRadius": "4",
+        "GridViewItemCheckBoxCornerRadius": "3",
+        "GridViewItemSelectedBorderThickness": "2"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/HyperlinkButton_themeresources.xaml",
+      "name": "HyperlinkButton",
+      "variant": "standard",
+      "styles": [
+        "HyperlinkButton",
+        "HyperlinkButton"
+      ],
+      "metrics": {
+        "HyperlinkButtonBorderThemeThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/HyperlinkButton_themeresources_perf2026.xaml",
+      "name": "HyperlinkButton",
+      "variant": "perf2026",
+      "styles": [
+        "HyperlinkButton",
+        "HyperlinkButton"
+      ],
+      "metrics": {
+        "HyperlinkButtonBorderThemeThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Hyperlink_themeresources.xaml",
+      "name": "Hyperlink",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/InkToolbar_themeresources.xaml",
+      "name": "InkToolbar",
+      "variant": "standard",
+      "styles": [
+        "TextBlock",
+        "TextBlock",
+        "FlyoutPresenter",
+        "ToggleButton",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "Rectangle",
+        "InkToolbarBallpointPenButton",
+        "InkToolbarHighlighterButton",
+        "InkToolbarPencilButton",
+        "InkToolbarCustomPenButton",
+        "InkToolbarFlyoutItem",
+        "InkToolbarEraserButton",
+        "InkToolbarCustomToolButton",
+        "InkToolbarRulerButton",
+        "InkToolbarCustomToggleButton",
+        "InkToolbarStencilButton",
+        "InkToolbar",
+        "InkToolbarPenConfigurationControl",
+        "primitives:InkToolbarStrokeWidthSlider",
+        "GridViewItem"
+      ],
+      "metrics": {
+        "InkToolbarButtonBorderThemeThickness": "1",
+        "InkToolbarButtonWidth": "36",
+        "InkToolbarButtonHeight": "36",
+        "InkToolbarButtonFontSize": "16",
+        "InkToolbarFlyoutPanelMargin": "0,1,0,1",
+        "InkToolbarFlyoutItemIconMargin": "12,0,12,0",
+        "InkToolbarFlyoutItemTextBlockMargin": "0,0,12,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ListBox_themeresources.xaml",
+      "name": "ListBox",
+      "variant": "standard",
+      "styles": [
+        "ListBoxItem",
+        "ListBoxItem",
+        "ContentPresenter",
+        "ContentPresenter",
+        "ListBox",
+        "ListBox"
+      ],
+      "metrics": {
+        "ListBoxBorderThemeThickness": "0",
+        "ListBoxItemPadding": "12,9,12,12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ListBox_themeresources_perf2026.xaml",
+      "name": "ListBox",
+      "variant": "perf2026",
+      "styles": [
+        "ListBoxItem",
+        "ListBoxItem",
+        "ContentPresenter",
+        "ContentPresenter",
+        "ListBox",
+        "ListBox"
+      ],
+      "metrics": {
+        "ListBoxBorderThemeThickness": "0",
+        "ListBoxItemPadding": "12,9,12,12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ListViewItem_themeresources.xaml",
+      "name": "ListViewItem",
+      "variant": "standard",
+      "styles": [
+        "ListViewItem",
+        "ListViewItem",
+        "ListViewItem",
+        "ListViewItem"
+      ],
+      "metrics": {
+        "ListViewItemContentOffsetX": "-40.5",
+        "ListViewItemDisabledThemeOpacity": "0.3",
+        "ListViewItemDragThemeOpacity": "0.80",
+        "ListViewItemReorderThemeOpacity": "0.80",
+        "ListViewItemReorderTargetThemeOpacity": "0.50",
+        "ListViewItemReorderTargetThemeScale": "0.95",
+        "ListViewItemReorderHintThemeOffset": "10.0",
+        "ListViewItemSelectedBorderThemeThickness": "4",
+        "ListViewItemMinWidth": "88",
+        "ListViewItemMinHeight": "40",
+        "ListViewItemCompactSelectedBorderThemeThickness": "4",
+        "ListViewItemCornerRadius": "4",
+        "ListViewItemCheckBoxCornerRadius": "3",
+        "ListViewItemSelectionIndicatorCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ListViewItem_themeresources_perf2026.xaml",
+      "name": "ListViewItem",
+      "variant": "perf2026",
+      "styles": [
+        "ListViewItem",
+        "ListViewItem",
+        "ListViewItem",
+        "ListViewItem"
+      ],
+      "metrics": {
+        "ListViewItemContentOffsetX": "-40.5",
+        "ListViewItemDisabledThemeOpacity": "0.3",
+        "ListViewItemDragThemeOpacity": "0.80",
+        "ListViewItemReorderThemeOpacity": "0.80",
+        "ListViewItemReorderTargetThemeOpacity": "0.50",
+        "ListViewItemReorderTargetThemeScale": "0.95",
+        "ListViewItemReorderHintThemeOffset": "10.0",
+        "ListViewItemSelectedBorderThemeThickness": "4",
+        "ListViewItemMinWidth": "88",
+        "ListViewItemMinHeight": "40",
+        "ListViewItemCompactSelectedBorderThemeThickness": "4",
+        "ListViewItemCornerRadius": "4",
+        "ListViewItemCheckBoxCornerRadius": "3",
+        "ListViewItemSelectionIndicatorCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/MediaTransportControls_themeresources.xaml",
+      "name": "MediaTransportControls",
+      "variant": "standard",
+      "styles": [
+        "MediaTransportControls",
+        "MediaTransportControls",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "CommandBar",
+        "TextBlock",
+        "FlyoutPresenter",
+        "Slider",
+        "AppBarButton"
+      ],
+      "metrics": {
+        "MediaTransportControlsTitleSafeBounds": "48,0,48,27",
+        "MediaTransportControlsMargin": "12",
+        "MediaTransportControlsProgressSliderMargin": "7,2,7,1",
+        "MediaTransportControlsProgressSliderCompactMargin": "12,-1,8,1",
+        "MediaTransportControlsBorderThickness": "1",
+        "MediaTransportControlsAppBarButtonHeight": "40",
+        "MediaTransportControlsAppBarButtonWidth": "40",
+        "MediaTransportControlsSliderHeight": "32",
+        "MediaTransportControlsSliderWidth": "190",
+        "MediaTransportControlsMinWidth": "296",
+        "MediaTransportControlsMaxWidth": "720",
+        "AppBarButtonInnerBorderMargin": "5",
+        "AppBarButtonContentViewboxCollapsedMargin": "0,12",
+        "AppBarThemeCompactHeight": "40",
+        "AppBarMoreButtonColumnMinWidth": "0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/MediaTransportControls_themeresources_perf2026.xaml",
+      "name": "MediaTransportControls",
+      "variant": "perf2026",
+      "styles": [
+        "MediaTransportControls",
+        "MediaTransportControls",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "CommandBar",
+        "TextBlock",
+        "FlyoutPresenter",
+        "Slider",
+        "AppBarButton"
+      ],
+      "metrics": {
+        "MediaTransportControlsTitleSafeBounds": "48,0,48,27",
+        "MediaTransportControlsMargin": "12",
+        "MediaTransportControlsProgressSliderMargin": "7,2,7,1",
+        "MediaTransportControlsProgressSliderCompactMargin": "12,-1,8,1",
+        "MediaTransportControlsBorderThickness": "1",
+        "MediaTransportControlsAppBarButtonHeight": "40",
+        "MediaTransportControlsAppBarButtonWidth": "40",
+        "MediaTransportControlsSliderHeight": "32",
+        "MediaTransportControlsSliderWidth": "190",
+        "MediaTransportControlsMinWidth": "296",
+        "MediaTransportControlsMaxWidth": "720",
+        "AppBarButtonInnerBorderMargin": "5",
+        "AppBarButtonContentViewboxCollapsedMargin": "0,12",
+        "AppBarThemeCompactHeight": "40",
+        "AppBarMoreButtonColumnMinWidth": "0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/MenuFlyout_themeresources.xaml",
+      "name": "MenuFlyout",
+      "variant": "standard",
+      "styles": [
+        "MenuFlyoutPresenter",
+        "MenuFlyoutItem",
+        "MenuFlyoutSubItem",
+        "ToggleMenuFlyoutItem",
+        "SplitMenuFlyoutItem",
+        "MenuFlyoutPresenter",
+        "MenuFlyoutItem",
+        "ToggleMenuFlyoutItem",
+        "SplitMenuFlyoutItem",
+        "Button",
+        "MenuFlyoutSubItem",
+        "MenuFlyoutSeparator",
+        "MenuFlyoutItem",
+        "ToggleMenuFlyoutItem",
+        "MenuFlyoutSubItem"
+      ],
+      "metrics": {
+        "MenuFlyoutPresenterBorderThemeThickness": "1",
+        "MenuFlyoutItemBorderThickness": "0",
+        "MenuFlyoutSubItemBorderThickness": "0",
+        "MenuFlyoutItemPlaceholderThemeThickness": "28,0,0,0",
+        "MenuFlyoutItemDoublePlaceholderThemeThickness": "56,0,0,0",
+        "MenuFlyoutItemRevealBorderThickness": "1",
+        "ToggleMenuFlyoutItemRevealBorderThickness": "1",
+        "MenuFlyoutSubItemRevealBorderThickness": "1",
+        "MenuFlyoutSeparatorHeight": "1",
+        "MenuFlyoutPresenterThemePadding": "0,2,0,2",
+        "MenuFlyoutThemeMinHeight": "32",
+        "MenuFlyoutItemChevronMargin": "24,0,0,-1",
+        "MenuFlyoutSeparatorThemePadding": "-4,1,-4,1",
+        "MenuFlyoutItemMargin": "4,2,4,2",
+        "MenuFlyoutItemThemePadding": "11,8,11,9",
+        "MenuFlyoutItemThemePaddingNarrow": "11,4,11,5",
+        "SplitMenuFlyoutItemSeparatorHeight": "18",
+        "SplitMenuFlyoutItemChevronButtonWidth": "38"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/MenuFlyout_themeresources_perf2026.xaml",
+      "name": "MenuFlyout",
+      "variant": "perf2026",
+      "styles": [
+        "MenuFlyoutPresenter",
+        "MenuFlyoutItem",
+        "MenuFlyoutSubItem",
+        "ToggleMenuFlyoutItem",
+        "SplitMenuFlyoutItem",
+        "MenuFlyoutPresenter",
+        "MenuFlyoutItem",
+        "ToggleMenuFlyoutItem",
+        "SplitMenuFlyoutItem",
+        "Button",
+        "MenuFlyoutSubItem",
+        "MenuFlyoutSeparator",
+        "MenuFlyoutItem",
+        "ToggleMenuFlyoutItem",
+        "MenuFlyoutSubItem"
+      ],
+      "metrics": {
+        "MenuFlyoutPresenterBorderThemeThickness": "1",
+        "MenuFlyoutItemBorderThickness": "0",
+        "MenuFlyoutSubItemBorderThickness": "0",
+        "MenuFlyoutItemPlaceholderThemeThickness": "28,0,0,0",
+        "MenuFlyoutItemDoublePlaceholderThemeThickness": "56,0,0,0",
+        "MenuFlyoutItemRevealBorderThickness": "1",
+        "ToggleMenuFlyoutItemRevealBorderThickness": "1",
+        "MenuFlyoutSubItemRevealBorderThickness": "1",
+        "MenuFlyoutSeparatorHeight": "1",
+        "MenuFlyoutPresenterThemePadding": "0,2,0,2",
+        "MenuFlyoutThemeMinHeight": "32",
+        "MenuFlyoutItemChevronMargin": "24,0,0,-1",
+        "MenuFlyoutSeparatorThemePadding": "-4,1,-4,1",
+        "MenuFlyoutItemMargin": "4,2,4,2",
+        "MenuFlyoutItemThemePadding": "11,8,11,9",
+        "MenuFlyoutItemThemePaddingNarrow": "11,4,11,5",
+        "SplitMenuFlyoutItemSeparatorHeight": "18",
+        "SplitMenuFlyoutItemChevronButtonWidth": "38"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/PasswordBox_themeresources.xaml",
+      "name": "PasswordBox",
+      "variant": "standard",
+      "styles": [
+        "PasswordBox",
+        "PasswordBox",
+        "ToggleButton"
+      ],
+      "metrics": {
+        "PasswordBoxTopHeaderMargin": "0,0,0,8",
+        "PasswordBoxIconFontSize": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/PasswordBox_themeresources_perf2026.xaml",
+      "name": "PasswordBox",
+      "variant": "perf2026",
+      "styles": [
+        "PasswordBox",
+        "PasswordBox",
+        "ToggleButton"
+      ],
+      "metrics": {
+        "PasswordBoxTopHeaderMargin": "0,0,0,8",
+        "PasswordBoxIconFontSize": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Pivot_themeresources.xaml",
+      "name": "Pivot",
+      "variant": "standard",
+      "styles": [
+        "Pivot",
+        "Pivot",
+        "ContentControl",
+        "ContentControl",
+        "PivotItem",
+        "PivotItem",
+        "PivotHeaderItem",
+        "PivotHeaderItem",
+        "ContentControl"
+      ],
+      "metrics": {
+        "PivotHeaderItemFontSize": "24",
+        "PivotHeaderItemLockedTranslation": "40",
+        "PivotTitleFontSize": "14",
+        "PivotHeaderItemMargin": "12,0,12,0",
+        "PivotItemMargin": "12,0,12,0",
+        "PivotLandscapeThemePadding": "12,14,0,13",
+        "PivotNavButtonBorderThemeThickness": "0",
+        "PivotNavButtonMargin": "0,6,0,0",
+        "PivotPortraitThemePadding": "12,14,0,13",
+        "PivotHeaderItemSelectedPipeCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Pivot_themeresources_perf2026.xaml",
+      "name": "Pivot",
+      "variant": "perf2026",
+      "styles": [
+        "Pivot",
+        "Pivot",
+        "ContentControl",
+        "ContentControl",
+        "PivotItem",
+        "PivotItem",
+        "PivotHeaderItem",
+        "PivotHeaderItem",
+        "ContentControl"
+      ],
+      "metrics": {
+        "PivotHeaderItemFontSize": "24",
+        "PivotHeaderItemLockedTranslation": "40",
+        "PivotTitleFontSize": "14",
+        "PivotHeaderItemMargin": "12,0,12,0",
+        "PivotItemMargin": "12,0,12,0",
+        "PivotLandscapeThemePadding": "12,14,0,13",
+        "PivotNavButtonBorderThemeThickness": "0",
+        "PivotNavButtonMargin": "0,6,0,0",
+        "PivotPortraitThemePadding": "12,14,0,13",
+        "PivotHeaderItemSelectedPipeCornerRadius": "1.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/RadioButton_themeresources.xaml",
+      "name": "RadioButton",
+      "variant": "standard",
+      "styles": [
+        "RadioButton",
+        "RadioButton"
+      ],
+      "metrics": {
+        "RadioButtonBorderThemeThickness": "1",
+        "RadioButtonCheckGlyphSize": "12",
+        "RadioButtonCheckGlyphPointerOverSize": "14",
+        "RadioButtonCheckGlyphPressedOverSize": "10"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/RadioButton_themeresources_perf2026.xaml",
+      "name": "RadioButton",
+      "variant": "perf2026",
+      "styles": [
+        "RadioButton",
+        "RadioButton"
+      ],
+      "metrics": {
+        "RadioButtonBorderThemeThickness": "1",
+        "RadioButtonCheckGlyphSize": "12",
+        "RadioButtonCheckGlyphPointerOverSize": "14",
+        "RadioButtonCheckGlyphPressedOverSize": "10"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/RepeatButton_themeresources.xaml",
+      "name": "RepeatButton",
+      "variant": "standard",
+      "styles": [
+        "RepeatButton",
+        "RepeatButton"
+      ],
+      "metrics": {
+        "RepeatButtonBorderThemeThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/RepeatButton_themeresources_perf2026.xaml",
+      "name": "RepeatButton",
+      "variant": "perf2026",
+      "styles": [
+        "RepeatButton",
+        "RepeatButton"
+      ],
+      "metrics": {
+        "RepeatButtonBorderThemeThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/RichEditBox_themeresources.xaml",
+      "name": "RichEditBox",
+      "variant": "standard",
+      "styles": [
+        "RichEditBox",
+        "RichEditBox"
+      ],
+      "metrics": {
+        "RichEditBoxTopHeaderMargin": "0,0,0,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/RichEditBox_themeresources_perf2026.xaml",
+      "name": "RichEditBox",
+      "variant": "perf2026",
+      "styles": [
+        "RichEditBox",
+        "RichEditBox"
+      ],
+      "metrics": {
+        "RichEditBoxTopHeaderMargin": "0,0,0,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ScrollBar_themeresources.xaml",
+      "name": "ScrollBar",
+      "variant": "standard",
+      "styles": [
+        "ScrollBar",
+        "ScrollBar"
+      ],
+      "metrics": {
+        "ScrollBarTrackBorderThemeThickness": "0",
+        "ScrollBarPanningBorderThemeThickness": "1",
+        "ScrollBarThumbOffset": "2",
+        "ScrollBarSize": "12",
+        "ScrollBarVerticalThumbMinHeight": "30",
+        "ScrollBarVerticalThumbMinWidth": "8",
+        "ScrollBarHorizontalThumbMinWidth": "30",
+        "ScrollBarHorizontalThumbMinHeight": "8",
+        "ScrollBarThumbStrokeThickness": "6",
+        "ScrollBarButtonArrowIconFontSize": "8",
+        "ScrollBarButtonArrowScalePressed": "0.875",
+        "ScrollBarCornerRadius": "3",
+        "ScrollBarHorizontalDecreaseMargin": "4,0,0,0",
+        "ScrollBarHorizontalIncreaseMargin": "0,0,4,0",
+        "ScrollBarVerticalDecreaseMargin": "0,4,0,0",
+        "ScrollBarVerticalIncreaseMargin": "0,0,0,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ScrollBar_themeresources_perf2026.xaml",
+      "name": "ScrollBar",
+      "variant": "perf2026",
+      "styles": [
+        "ScrollBar",
+        "ScrollBar",
+        "RepeatButton",
+        "RepeatButton",
+        "RepeatButton",
+        "RepeatButton",
+        "RepeatButton"
+      ],
+      "metrics": {
+        "ScrollBarTrackBorderThemeThickness": "0",
+        "ScrollBarPanningBorderThemeThickness": "1",
+        "ScrollBarThumbOffset": "2",
+        "ScrollBarSize": "12",
+        "ScrollBarVerticalThumbMinHeight": "30",
+        "ScrollBarVerticalThumbMinWidth": "8",
+        "ScrollBarHorizontalThumbMinWidth": "30",
+        "ScrollBarHorizontalThumbMinHeight": "8",
+        "ScrollBarThumbStrokeThickness": "6",
+        "ScrollBarButtonArrowIconFontSize": "8",
+        "ScrollBarButtonArrowScalePressed": "0.875",
+        "ScrollBarCornerRadius": "3",
+        "ScrollBarHorizontalDecreaseMargin": "4,0,0,0",
+        "ScrollBarHorizontalIncreaseMargin": "0,0,4,0",
+        "ScrollBarVerticalDecreaseMargin": "0,4,0,0",
+        "ScrollBarVerticalIncreaseMargin": "0,0,0,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ScrollViewer_themeresources.xaml",
+      "name": "ScrollViewer",
+      "variant": "standard",
+      "styles": [
+        "ScrollViewer",
+        "ScrollViewer"
+      ],
+      "metrics": {
+        "ScrollViewerScrollBarMargin": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ScrollViewer_themeresources_perf2026.xaml",
+      "name": "ScrollViewer",
+      "variant": "perf2026",
+      "styles": [
+        "ScrollViewer",
+        "ScrollViewer"
+      ],
+      "metrics": {
+        "ScrollViewerScrollBarMargin": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Slider_themeresources.xaml",
+      "name": "Slider",
+      "variant": "standard",
+      "styles": [
+        "Slider",
+        "Slider",
+        "Thumb"
+      ],
+      "metrics": {
+        "SliderOutsideTickBarThemeHeight": "4",
+        "SliderTrackThemeHeight": "4",
+        "SliderBorderThemeThickness": "0",
+        "SliderHeaderThemeMargin": "0,0,0,4",
+        "SliderTopHeaderMargin": "0,0,0,4",
+        "SliderTrackCornerRadius": "2",
+        "SliderThumbCornerRadius": "10",
+        "SliderPreContentMargin": "14",
+        "SliderPostContentMargin": "14",
+        "SliderInnerThumbHeight": "12",
+        "SliderHorizontalHeight": "32",
+        "SliderVerticalWidth": "32",
+        "SliderHorizontalThumbWidth": "18",
+        "SliderHorizontalThumbHeight": "18",
+        "SliderVerticalThumbWidth": "18",
+        "SliderVerticalThumbHeight": "18",
+        "SliderInnerThumbWidth": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/Slider_themeresources_perf2026.xaml",
+      "name": "Slider",
+      "variant": "perf2026",
+      "styles": [
+        "Slider",
+        "Slider",
+        "Thumb"
+      ],
+      "metrics": {
+        "SliderOutsideTickBarThemeHeight": "4",
+        "SliderTrackThemeHeight": "4",
+        "SliderBorderThemeThickness": "0",
+        "SliderHeaderThemeMargin": "0,0,0,4",
+        "SliderTopHeaderMargin": "0,0,0,4",
+        "SliderTrackCornerRadius": "2",
+        "SliderThumbCornerRadius": "10",
+        "SliderPreContentMargin": "14",
+        "SliderPostContentMargin": "14",
+        "SliderInnerThumbHeight": "12",
+        "SliderHorizontalHeight": "32",
+        "SliderVerticalWidth": "32",
+        "SliderHorizontalThumbWidth": "18",
+        "SliderHorizontalThumbHeight": "18",
+        "SliderVerticalThumbWidth": "18",
+        "SliderVerticalThumbHeight": "18",
+        "SliderInnerThumbWidth": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/TabularSurfaces_themeresources.xaml",
+      "name": "TabularSurfaces",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "TabularSurfaceGroupHeaderCountOpacity": "1.0",
+        "TabularSurfaceGroupHeaderBorderThickness": "0,1,0,1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/TextBlock_themeresources.xaml",
+      "name": "TextBlock",
+      "variant": "standard",
+      "styles": [
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock",
+        "TextBlock"
+      ],
+      "metrics": {
+        "CaptionTextBlockFontSize": "12",
+        "BodyTextBlockFontSize": "14",
+        "BodyLargeTextBlockFontSize": "18",
+        "SubtitleTextBlockFontSize": "20",
+        "TitleTextBlockFontSize": "28",
+        "TitleLargeTextBlockFontSize": "40",
+        "DisplayTextBlockFontSize": "68"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/TextBox_themeresources.xaml",
+      "name": "TextBox",
+      "variant": "standard",
+      "styles": [
+        "TextBox",
+        "TextBox",
+        "Button"
+      ],
+      "metrics": {
+        "TextBoxTopHeaderMargin": "0,0,0,8",
+        "TextBoxInnerButtonMargin": "0,4,4,4",
+        "TextBoxIconFontSize": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/TextBox_themeresources_perf2026.xaml",
+      "name": "TextBox",
+      "variant": "perf2026",
+      "styles": [
+        "TextBox",
+        "TextBox",
+        "Button"
+      ],
+      "metrics": {
+        "TextBoxTopHeaderMargin": "0,0,0,8",
+        "TextBoxInnerButtonMargin": "0,4,4,4",
+        "TextBoxIconFontSize": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/TextControlsCommon_themeresources.xaml",
+      "name": "TextControlsCommon",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/TimePicker_themeresources.xaml",
+      "name": "TimePicker",
+      "variant": "standard",
+      "styles": [
+        "TimePicker",
+        "Button",
+        "TimePickerFlyoutPresenter"
+      ],
+      "metrics": {
+        "TimePickerSelectorThemeMinWidth": "80",
+        "TimePickerSpacerThemeWidth": "1",
+        "TimePickerBorderThemeThickness": "1",
+        "TimePickerHeaderThemeMargin": "0,0,0,4",
+        "TimePickerFirstHostThemeMargin": "0,0,20,0",
+        "TimePickerThirdHostThemeMargin": "20,0,0,0",
+        "TimePickerTopHeaderMargin": "0,0,0,4",
+        "TimePickerFlyoutPresenterHighlightHeight": "40",
+        "TimePickerFlyoutPresenterAcceptDismissHostGridHeight": "41",
+        "TimePickerThemeMinWidth": "242",
+        "TimePickerThemeMaxWidth": "456",
+        "TimePickerFlyoutPresenterItemHeight": "40",
+        "TimePickerFlyoutPresenterItemPadding": "0,3,0,6",
+        "TimePickerHostPadding": "0,3,0,6"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/TimePicker_themeresources_perf2026.xaml",
+      "name": "TimePicker",
+      "variant": "perf2026",
+      "styles": [
+        "TimePicker",
+        "Button",
+        "TimePickerFlyoutPresenter"
+      ],
+      "metrics": {
+        "TimePickerSelectorThemeMinWidth": "80",
+        "TimePickerSpacerThemeWidth": "1",
+        "TimePickerBorderThemeThickness": "1",
+        "TimePickerHeaderThemeMargin": "0,0,0,4",
+        "TimePickerFirstHostThemeMargin": "0,0,20,0",
+        "TimePickerThirdHostThemeMargin": "20,0,0,0",
+        "TimePickerTopHeaderMargin": "0,0,0,4",
+        "TimePickerFlyoutPresenterHighlightHeight": "40",
+        "TimePickerFlyoutPresenterAcceptDismissHostGridHeight": "41",
+        "TimePickerThemeMinWidth": "242",
+        "TimePickerThemeMaxWidth": "456",
+        "TimePickerFlyoutPresenterItemHeight": "40",
+        "TimePickerFlyoutPresenterItemPadding": "0,3,0,6",
+        "TimePickerHostPadding": "0,3,0,6"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ToggleButton_themeresources.xaml",
+      "name": "ToggleButton",
+      "variant": "standard",
+      "styles": [
+        "ToggleButton",
+        "ToggleButton"
+      ],
+      "metrics": {
+        "ToggleButtonBorderThemeThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ToggleButton_themeresources_perf2026.xaml",
+      "name": "ToggleButton",
+      "variant": "perf2026",
+      "styles": [
+        "ToggleButton",
+        "ToggleButton"
+      ],
+      "metrics": {
+        "ToggleButtonBorderThemeThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ToggleSwitch_themeresources.xaml",
+      "name": "ToggleSwitch",
+      "variant": "standard",
+      "styles": [
+        "ToggleSwitch",
+        "ToggleSwitch"
+      ],
+      "metrics": {
+        "ToggleSwitchOnStrokeThickness": "0",
+        "ToggleSwitchOuterBorderStrokeThickness": "1",
+        "ToggleSwitchTopHeaderMargin": "0,0,0,4",
+        "ToggleSwitchPreContentMargin": "10",
+        "ToggleSwitchPostContentMargin": "10",
+        "ToggleSwitchThemeMinWidth": "154"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ToggleSwitch_themeresources_perf2026.xaml",
+      "name": "ToggleSwitch",
+      "variant": "perf2026",
+      "styles": [
+        "ToggleSwitch",
+        "ToggleSwitch"
+      ],
+      "metrics": {
+        "ToggleSwitchOnStrokeThickness": "0",
+        "ToggleSwitchOuterBorderStrokeThickness": "1",
+        "ToggleSwitchTopHeaderMargin": "0,0,0,4",
+        "ToggleSwitchPreContentMargin": "10",
+        "ToggleSwitchPostContentMargin": "10",
+        "ToggleSwitchThemeMinWidth": "154"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/CommonStyles/ToolTip_themeresources.xaml",
+      "name": "ToolTip",
+      "variant": "standard",
+      "styles": [
+        "ToolTip",
+        "ToolTip"
+      ],
+      "metrics": {
+        "ToolTipContentThemeFontSize": "12",
+        "ToolTipBorderThemeThickness": "1",
+        "ToolTipBorderPadding": "9,6,9,8",
+        "ToolTipMaxWidth": "320"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/DropDownButton/DropDownButton_themeresources.xaml",
+      "name": "DropDownButton",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/Expander/Expander_themeresources.xaml",
+      "name": "Expander",
+      "variant": "standard",
+      "styles": [
+        "ToggleButton",
+        "ToggleButton"
+      ],
+      "metrics": {
+        "ExpanderHeaderBorderThickness": "2",
+        "ExpanderChevronBorderThickness": "2",
+        "ExpanderMinHeight": "48",
+        "ExpanderHeaderPadding": "16,0,0,0",
+        "ExpanderChevronMargin": "20,0,8,0",
+        "ExpanderChevronButtonSize": "32",
+        "ExpanderChevronGlyphSize": "12",
+        "ExpanderContentPadding": "16",
+        "ExpanderContentDownBorderThickness": "1,0,1,1",
+        "ExpanderContentUpBorderThickness": "1,1,1,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/Expander/Expander_themeresources_perf2026.xaml",
+      "name": "Expander",
+      "variant": "perf2026",
+      "styles": [
+        "ToggleButton",
+        "ToggleButton"
+      ],
+      "metrics": {
+        "ExpanderHeaderBorderThickness": "2",
+        "ExpanderChevronBorderThickness": "2",
+        "ExpanderMinHeight": "48",
+        "ExpanderHeaderPadding": "16,0,0,0",
+        "ExpanderChevronMargin": "20,0,8,0",
+        "ExpanderChevronButtonSize": "32",
+        "ExpanderChevronGlyphSize": "12",
+        "ExpanderContentPadding": "16",
+        "ExpanderContentDownBorderThickness": "1,0,1,1",
+        "ExpanderContentUpBorderThickness": "1,1,1,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ImageIcon/ImageIcon_themeresources.xaml",
+      "name": "ImageIcon",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/InfoBadge/InfoBadge_themeresources.xaml",
+      "name": "InfoBadge",
+      "variant": "standard",
+      "styles": [
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge",
+        "controls:InfoBadge"
+      ],
+      "metrics": {
+        "InfoBadgeMinHeight": "4",
+        "InfoBadgeMinWidth": "4",
+        "InfoBadgeMaxHeight": "16",
+        "InfoBadgeValueFontSize": "11",
+        "InfoBadgeIconHeight": "9",
+        "InfoBadgeIconWidth": "12",
+        "InfoBadgePadding": "0,0,0,0",
+        "IconInfoBadgeFontIconMargin": "4,0,4,2",
+        "ValueInfoBadgeTextMargin": "4,0,4,2",
+        "IconInfoBadgeIconMargin": "4,4,4,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/InfoBar/InfoBar_themeresources.xaml",
+      "name": "InfoBar",
+      "variant": "standard",
+      "styles": [
+        "Button"
+      ],
+      "metrics": {
+        "InfoBarBorderThickness": "2",
+        "InfoBarTitleFontSize": "14",
+        "InfoBarMessageFontSize": "14",
+        "InfoBarMinHeight": "48",
+        "InfoBarCloseButtonSize": "38",
+        "InfoBarCloseButtonGlyphSize": "16",
+        "InfoBarHyperlinkButtonMargin": "-12,0,0,0",
+        "InfoBarContentRootPadding": "16,0,0,0",
+        "InfoBarIconMargin": "0,16,14,16",
+        "InfoBarIconFontSize": "16",
+        "InfoBarPanelMargin": "0,0,16,0",
+        "InfoBarPanelHorizontalOrientationPadding": "0,0,0,0",
+        "InfoBarPanelVerticalOrientationPadding": "0,14,0,18",
+        "InfoBarTitleHorizontalOrientationMargin": "0,14,0,0",
+        "InfoBarTitleVerticalOrientationMargin": "0,14,0,0",
+        "InfoBarMessageHorizontalOrientationMargin": "12,14,0,0",
+        "InfoBarMessageVerticalOrientationMargin": "0,4,0,0",
+        "InfoBarActionHorizontalOrientationMargin": "16,8,0,0",
+        "InfoBarActionVerticalOrientationMargin": "0,12,0,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/InkToolbar/InkToolbar_themeresources.xaml",
+      "name": "InkToolbar",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ItemContainer/ItemContainer_themeresources.xaml",
+      "name": "ItemContainer",
+      "variant": "standard",
+      "styles": [
+        "CheckBox"
+      ],
+      "metrics": {
+        "ItemContainerDisabledOpacity": "0.3",
+        "ItemContainerCheckboxMinWidth": "0",
+        "ItemContainerCheckboxMargin": "4,-2",
+        "ItemContainerSelectedInnerMargin": "2",
+        "ItemContainerSelectedInnerThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ItemContainer/ItemContainer_themeresources_perf2026.xaml",
+      "name": "ItemContainer",
+      "variant": "perf2026",
+      "styles": [
+        "CheckBox"
+      ],
+      "metrics": {
+        "ItemContainerDisabledOpacity": "0.3",
+        "ItemContainerCheckboxMinWidth": "0",
+        "ItemContainerCheckboxMargin": "4,-2",
+        "ItemContainerSelectedInnerMargin": "2",
+        "ItemContainerSelectedInnerThickness": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ItemsView/ItemsView_themeresources.xaml",
+      "name": "ItemsView",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/Materials/Acrylic/AcrylicBrush_themeresources.xaml",
+      "name": "AcrylicBrush",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/Materials/Reveal/RevealBrush_themeresources.xaml",
+      "name": "RevealBrush",
+      "variant": "standard",
+      "styles": [
+        "Button",
+        "RepeatButton",
+        "ToggleButton",
+        "Button",
+        "CommandBar",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "FrameworkElement",
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "ListViewItem",
+        "GridViewItem",
+        "ComboBoxItem",
+        "SemanticZoom",
+        "controls:DropDownButton",
+        "controls:SplitButton",
+        "Button",
+        "ListViewItem",
+        "GridViewItem",
+        "ListViewItem",
+        "GridViewItem"
+      ],
+      "metrics": {
+        "ButtonRevealBorderThemeThickness": "1",
+        "RepeatButtonRevealBorderThemeThickness": "1",
+        "ToggleButtonRevealBorderThemeThickness": "1",
+        "AppBarEllipsisButtonRevealBorderThemeThickness": "0",
+        "AppBarButtonRevealBorderThemeThickness": "0",
+        "AppBarToggleButtonRevealBorderThemeThickness": "0",
+        "ListViewItemRevealBorderThemeThickness": "1",
+        "GridViewItemRevealBorderThemeThickness": "1",
+        "ComboBoxItemRevealBorderThemeThickness": "1",
+        "ComboBoxItemRevealThemePadding": "10,4,10,7",
+        "ComboBoxItemRevealThemeTouchPadding": "10,8,10,11",
+        "ComboBoxItemRevealThemeGameControllerPadding": "10,8,10,11",
+        "CommandBarMoreButtonMargin": "14,19,14,0",
+        "AppBarButtonContentHeight": "16",
+        "AppBarThemeMinHeight": "56",
+        "AppBarThemeCompactHeight": "40"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/Materials/Reveal/RevealBrush_themeresources_perf2026.xaml",
+      "name": "RevealBrush",
+      "variant": "perf2026",
+      "styles": [
+        "Button",
+        "RepeatButton",
+        "ToggleButton",
+        "Button",
+        "CommandBar",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "FrameworkElement",
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "AppBarToggleButton",
+        "ListViewItem",
+        "GridViewItem",
+        "ComboBoxItem",
+        "SemanticZoom",
+        "controls:DropDownButton",
+        "controls:SplitButton",
+        "Button",
+        "ListViewItem",
+        "GridViewItem",
+        "ListViewItem",
+        "GridViewItem"
+      ],
+      "metrics": {
+        "ButtonRevealBorderThemeThickness": "1",
+        "RepeatButtonRevealBorderThemeThickness": "1",
+        "ToggleButtonRevealBorderThemeThickness": "1",
+        "AppBarEllipsisButtonRevealBorderThemeThickness": "0",
+        "AppBarButtonRevealBorderThemeThickness": "0",
+        "AppBarToggleButtonRevealBorderThemeThickness": "0",
+        "ListViewItemRevealBorderThemeThickness": "1",
+        "GridViewItemRevealBorderThemeThickness": "1",
+        "ComboBoxItemRevealBorderThemeThickness": "1",
+        "ComboBoxItemRevealThemePadding": "10,4,10,7",
+        "ComboBoxItemRevealThemeTouchPadding": "10,8,10,11",
+        "ComboBoxItemRevealThemeGameControllerPadding": "10,8,10,11",
+        "CommandBarMoreButtonMargin": "14,19,14,0",
+        "AppBarButtonContentHeight": "16",
+        "AppBarThemeMinHeight": "56",
+        "AppBarThemeCompactHeight": "40"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/MenuBar/MenuBar_themeresources.xaml",
+      "name": "MenuBar",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "MenuBarItemBorderThickness": "2",
+        "MenuBarHeight": "40",
+        "MenuBarItemButtonPadding": "10,4,10,4",
+        "MenuBarItemMargin": "4,4,4,4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/NavigationView/NavigationBackButton_themeresources.xaml",
+      "name": "NavigationBackButton",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "NavigationBackButtonWidth": "40",
+        "NavigationBackButtonHeight": "36"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/NavigationView/NavigationView_themeresources.xaml",
+      "name": "NavigationView",
+      "variant": "standard",
+      "styles": [
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "primitives:NavigationViewItemPresenter",
+        "controls:NavigationViewItem",
+        "primitives:NavigationViewItemPresenter",
+        "primitives:NavigationViewItemPresenter",
+        "TextBlock",
+        "ContentControl"
+      ],
+      "metrics": {
+        "NavigationViewAutoSuggestBoxMargin": "16,0",
+        "TopNavigationViewAutoSuggestBoxMargin": "4,0",
+        "PaneToggleButtonHeight": "36",
+        "PaneToggleButtonWidth": "40",
+        "PaneOverlayShadowDepth": "16",
+        "NavigationViewCompactPaneLength": "48",
+        "NavigationViewIconBoxWidth": "40",
+        "NavigationViewTopPaneHeight": "48",
+        "NavigationViewAutoSuggestAreaHeight": "40",
+        "TopNavigationViewPaneCustomContentMinWidth": "48",
+        "TopNavigationViewOverflowButtonWidth": "40",
+        "TopNavigationViewOverflowButtonHeight": "40",
+        "TopNavigationViewSettingsButtonWidth": "40",
+        "TopNavigationViewSettingsButtonHeight": "40",
+        "NavigationViewItemOnLeftMinHeight": "36",
+        "NavigationViewPaneHeaderRowMinHeight": "40",
+        "NavigationViewItemOnLeftIconBoxHeight": "16",
+        "NavigationViewSelectionIndicatorWidth": "3",
+        "NavigationViewSelectionIndicatorHeight": "16",
+        "NavigationViewSelectionIndicatorRadius": "2",
+        "NavigationViewItemSeparatorHeight": "1",
+        "TopNavigationViewItemSeparatorWidth": "1",
+        "NavigationViewToggleBorderThickness": "0",
+        "NavigationViewItemBorderThickness": "1",
+        "NavigationViewItemOnLeftIconBoxMargin": "0",
+        "NavigationViewItemButtonMargin": "4,2",
+        "NavigationViewItemInnerHeaderMargin": "16,0",
+        "TopNavigationViewItemInnerHeaderMargin": "12,0",
+        "NavigationViewMinimalHeaderMargin": "-24,44,0,0",
+        "NavigationViewButtonHolderGridMargin": "0,4",
+        "NavigationViewPaneContentGridMargin": "-1,3",
+        "NavigationViewContentGridBorderThickness": "1,1,0,0",
+        "NavigationViewMinimalContentGridBorderThickness": "0,1,0,0",
+        "TopNavigationViewContentGridBorderThickness": "0,1,0,0",
+        "TopNavigationViewTopNavGridMargin": "4,0",
+        "NavigationViewBorderThickness": "1",
+        "NavigationViewHeaderMargin": "56,44,0,0",
+        "NavigationViewContentPresenterMargin": "0",
+        "NavigationViewContentMargin": "0",
+        "NavigationViewMinimalContentMargin": "0",
+        "TopNavigationViewContentMargin": "0",
+        "NavigationViewPaneTitlePresenterMargin": "8,4,0,0",
+        "NavigationViewItemMargin": "0",
+        "TopNavigationViewItemMargin": "0",
+        "NavigationViewItemSeparatorMargin": "0,3,0,4",
+        "NavigationViewCompactItemSeparatorMargin": "0,3,0,4",
+        "TopNavigationViewItemSeparatorMargin": "3,0,4,0",
+        "TopNavigationViewOverflowButtonMargin": "0",
+        "NavigationViewItemContentPresenterMargin": "4,-1,8,-1",
+        "NavigationViewCompactItemContentPresenterMargin": "0,0,0,0",
+        "TopNavigationViewItemContentPresenterMargin": "8,-1,12,-1",
+        "TopNavigationViewItemContentOnlyContentPresenterMargin": "12,0",
+        "NavigationViewItemExpandChevronMargin": "0,0,-14,0",
+        "TopNavigationViewItemExpandChevronMargin": "-16,0,0,0",
+        "TopNavigationViewItemIconOnlyExpandChevronMargin": "0,0,0,0",
+        "TopNavigationViewItemContentOnlyExpandChevronMargin": "-12,0,0,0",
+        "TopNavigationViewItemOnOverflowContentPresenterMargin": "12,0,20,0",
+        "TopNavigationViewItemOnOverflowNoIconContentPresenterMargin": "16,0,20,0",
+        "TopNavigationViewItemOnOverflowExpandChevronMargin": "-4,0,-8,0",
+        "TopNavigationViewItemOnOverflowExpandChevronPadding": "12,0,12,0",
+        "NavigationViewContentGridCornerRadius": "8,0,0,0",
+        "TopNavigationViewContentGridCornerRadius": "0",
+        "NavigationViewMinimalContentGridCornerRadius": "0",
+        "TopNavigationViewOverflowMenuPadding": "0,2",
+        "NavigationViewItemChildrenMenuFlyoutPadding": "0,2",
+        "NavigationViewItemExpandedGlyphFontSize": "8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/NumberBox/NumberBox_themeresources.xaml",
+      "name": "NumberBox",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "NumberBoxPopupBorderThickness": "1",
+        "NumberBoxPopupSpinButtonBorderThickness": "2",
+        "NumberBoxSpinButtonBorderThickness": "0,1,1,1",
+        "NumberBoxIconMargin": "10,0,0,0",
+        "NumberBoxPopupHorizonalOffset": "-21",
+        "NumberBoxPopupVerticalOffset": "-27",
+        "NumberBoxPopupShadowDepth": "16",
+        "NumberBoxMinWidth": "120",
+        "NumberBoxPopupIndicatorMargin": "0,0,8,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/PagerControl/PagerControl_themeresources.xaml",
+      "name": "PagerControl",
+      "variant": "standard",
+      "styles": [
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "PagerControlNumberPanelButtonWidth": "32"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/PagerControl/PagerControl_themeresources_perf2026.xaml",
+      "name": "PagerControl",
+      "variant": "perf2026",
+      "styles": [
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "PagerControlNumberPanelButtonWidth": "32"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/PersonPicture/PersonPicture_themeresources.xaml",
+      "name": "PersonPicture",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "PersonPictureEllipseBadgeStrokeOpacity": "1",
+        "PersonPictureEllipseBadgeImageSourceStrokeOpacity": "1",
+        "PersonPictureEllipseStrokeThickness": "1",
+        "PersonPictureEllipseBadgeStrokeThickness": "2",
+        "PersonPictureBadgeGridMargin": "0,-4,-4,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/PipsPager/PipsPager_themeresources.xaml",
+      "name": "PipsPager",
+      "variant": "standard",
+      "styles": [
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "PipsPagerButtonWidth": "20",
+        "PipsPagerButtonHeight": "12",
+        "PipsPagerHorizontalOrientationButtonWidth": "12",
+        "PipsPagerHorizontalOrientationButtonHeight": "24",
+        "PipsPagerVerticalOrientationButtonWidth": "24",
+        "PipsPagerVerticalOrientationButtonHeight": "12",
+        "PipsPagerButtonBorderThickness": "1",
+        "PipsPagerNavigationButtonBorderThickness": "1",
+        "PipsPagerNavigationButtonHeight": "24",
+        "PipsPagerNavigationButtonWidth": "24",
+        "PipsPagerNavigationButtonFontSize": "8",
+        "PipsPagerNavigationButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/PipsPager/PipsPager_themeresources_perf2026.xaml",
+      "name": "PipsPager",
+      "variant": "perf2026",
+      "styles": [
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "PipsPagerButtonWidth": "20",
+        "PipsPagerButtonHeight": "12",
+        "PipsPagerHorizontalOrientationButtonWidth": "12",
+        "PipsPagerHorizontalOrientationButtonHeight": "24",
+        "PipsPagerVerticalOrientationButtonWidth": "24",
+        "PipsPagerVerticalOrientationButtonHeight": "12",
+        "PipsPagerButtonBorderThickness": "1",
+        "PipsPagerNavigationButtonBorderThickness": "1",
+        "PipsPagerNavigationButtonHeight": "24",
+        "PipsPagerNavigationButtonWidth": "24",
+        "PipsPagerNavigationButtonFontSize": "8",
+        "PipsPagerNavigationButtonScalePressed": "0.875"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ProgressBar/ProgressBar_themeresources.xaml",
+      "name": "ProgressBar",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "ProgressBarBorderThemeThickness": "0",
+        "ProgressBarMinHeight": "3",
+        "ProgressBarTrackHeight": "1",
+        "ProgressBarCornerRadius": "1.5",
+        "ProgressBarTrackCornerRadius": "0.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ProgressRing/ProgressRing_themeresources.xaml",
+      "name": "ProgressRing",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "ProgressRingStrokeThickness": "4"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/PullToRefresh/RefreshContainer/RefreshContainer_themeresources.xaml",
+      "name": "RefreshContainer",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/PullToRefresh/RefreshVisualizer/RefreshVisualizer_themeresources.xaml",
+      "name": "RefreshVisualizer",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/RadioButtons/RadioButtons_themeresources.xaml",
+      "name": "RadioButtons",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "RadioButtonsColumnSpacing": "7",
+        "RadioButtonsRowSpacing": "8",
+        "RadioButtonsTopHeaderMargin": "0,0,0,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/RadioMenuFlyoutItem/RadioMenuFlyoutItem_themeresources.xaml",
+      "name": "RadioMenuFlyoutItem",
+      "variant": "standard",
+      "styles": [
+        "controls:RadioMenuFlyoutItem",
+        "controls:RadioMenuFlyoutItem",
+        "MenuFlyoutSubItem"
+      ],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/RadioMenuFlyoutItem/RadioMenuFlyoutItem_themeresources_perf2026.xaml",
+      "name": "RadioMenuFlyoutItem",
+      "variant": "perf2026",
+      "styles": [
+        "controls:RadioMenuFlyoutItem",
+        "controls:RadioMenuFlyoutItem",
+        "MenuFlyoutSubItem"
+      ],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/RatingControl/RatingControl_themeresources.xaml",
+      "name": "RatingControl",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "RatingControlFontSizeForRendering": "32",
+        "RatingControlItemSpacing": "8",
+        "RatingControlCaptionTopMargin": "-12.5"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ResizeGripper/ResizeGripper_themeresources.xaml",
+      "name": "ResizeGripper",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "ResizeGripperSeparatorThickness": "0,0,2,0",
+        "ResizeGripperSeparatorThicknessVertical": "0,0,0,2"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/ScrollView/ScrollView_themeresources.xaml",
+      "name": "ScrollView",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "ScrollViewScrollBarsMargin": "1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/SelectorBar/SelectorBar_themeresources.xaml",
+      "name": "SelectorBar",
+      "variant": "standard",
+      "styles": [
+        "Rectangle"
+      ],
+      "metrics": {
+        "SelectorBarPadding": "0,4",
+        "SelectorBarBorderThickness": "1",
+        "SelectorBarItemBorderThickness": "1",
+        "SelectorBarSelectedInnerThickness": "1",
+        "SelectorBarItemIconVisualMargin": "-2,0",
+        "SelectorBarItemTextVisualMargin": "0",
+        "SelectorBarItemPadding": "12,10,12,7",
+        "SelectorBarItemSelectionVisualMargin": "0",
+        "SelectorBarItemFocusVisualMargin": "-2",
+        "SelectorBarItemPillHeight": "3",
+        "SelectorBarItemPillWidth": "4",
+        "SelectorBarItemIconScale": "0.8",
+        "SelectorBarItemSpacing": "8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/SortIndicator/SortIndicator_themeresources.xaml",
+      "name": "SortIndicator",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "SortIndicatorSize": "16",
+        "SortIndicatorGlyphSize": "12"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/SplitButton/SplitButton_themeresources.xaml",
+      "name": "SplitButton",
+      "variant": "standard",
+      "styles": [
+        "controls:SplitButton",
+        "Button"
+      ],
+      "metrics": {
+        "SplitButtonBorderThemeThickness": "1",
+        "SplitButtonPrimaryButtonSize": "35",
+        "SplitButtonSecondaryButtonSize": "35",
+        "SplitButtonPadding": "11,6,11,7"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/SplitView/SplitView_themeresources.xaml",
+      "name": "SplitView",
+      "variant": "standard",
+      "styles": [
+        "SplitView",
+        "SplitView"
+      ],
+      "metrics": {
+        "SplitViewOpenPaneThemeLength": "320",
+        "SplitViewCompactPaneThemeLength": "48",
+        "SplitViewLeftBorderThemeThickness": "0,0,1,0",
+        "SplitViewRightBorderThemeThickness": "1,0,0,0",
+        "SplitViewPaneRootCornerRadius": "0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/SplitView/SplitView_themeresources_perf2026.xaml",
+      "name": "SplitView",
+      "variant": "perf2026",
+      "styles": [
+        "SplitView",
+        "SplitView"
+      ],
+      "metrics": {
+        "SplitViewOpenPaneThemeLength": "320",
+        "SplitViewCompactPaneThemeLength": "48",
+        "SplitViewLeftBorderThemeThickness": "0,0,1,0",
+        "SplitViewRightBorderThemeThickness": "1,0,0,0",
+        "SplitViewPaneRootCornerRadius": "0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/SwipeControl/SwipeControl_themeresources.xaml",
+      "name": "SwipeControl",
+      "variant": "standard",
+      "styles": [
+        "AppBarButton"
+      ],
+      "metrics": {}
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/TableView/TableView_themeresources.xaml",
+      "name": "TableView",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "TableViewRowMinHeight": "40",
+        "TableViewHeaderFontSize": "14",
+        "TableViewCellFontSize": "14",
+        "TableViewResizeGripperWidth": "8",
+        "TableViewHeaderCellPadding": "8,4,8,4",
+        "TableViewRowMinHeightCompact": "30",
+        "TableViewRowMinHeightComfortable": "48",
+        "TableViewCellPadding": "8,4,8,4",
+        "TableViewCellPaddingCompact": "8,2,8,2",
+        "TableViewCellPaddingComfortable": "8,8,8,8",
+        "TableViewHeaderCellPaddingCompact": "8,2,8,2",
+        "TableViewHeaderCellPaddingComfortable": "8,8,8,8"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/TabView/TabView_themeresources.xaml",
+      "name": "TabView",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "TabViewButtonBorderThickness": "1",
+        "TabViewItemHeaderCloseButtonBorderThickness": "1",
+        "TabViewHeaderPadding": "0,8,0,0",
+        "TabViewItemHeaderPadding": "8,3,4,3",
+        "TabViewSelectedItemHeaderPadding": "9,3,5,4",
+        "TabViewItemMinHeight": "32",
+        "TabViewItemMaxWidth": "240",
+        "TabViewItemMinWidth": "100",
+        "TabViewItemHeaderFontSize": "12",
+        "TabViewItemHeaderIconSize": "16",
+        "TabViewItemHeaderIconMargin": "0,0,10,0",
+        "TabViewItemHeaderCloseButtonHeight": "24",
+        "TabViewItemHeaderCloseButtonWidth": "32",
+        "TabViewItemHeaderCloseButtonSize": "16",
+        "TabViewItemHeaderCloseFontSize": "12",
+        "TabViewItemHeaderCloseMargin": "4,0,0,0",
+        "TabViewItemHeaderPaddingWithCloseButton": "8,3,4,3",
+        "TabViewItemHeaderPaddingWithoutCloseButton": "8,3,8,3",
+        "TabViewItemScrollButtonWidth": "32",
+        "TabViewItemScrollButtonHeight": "24",
+        "TabViewItemScrollButonFontSize": "8",
+        "TabViewItemScrollButtonPadding": "7,3,7,3",
+        "TabViewItemLeftScrollButtonContainerPadding": "8,0,3,3",
+        "TabViewItemRightScrollButtonContainerPadding": "3,0,8,3",
+        "TabViewItemAddButtonWidth": "32",
+        "TabViewItemAddButtonHeight": "24",
+        "TabViewItemAddButtonFontSize": "12",
+        "TabViewItemAddButtonContainerPadding": "3,0,0,3",
+        "TabViewShadowDepth": "16",
+        "TabViewItemSeparatorMargin": "0,8,0,8",
+        "TabViewItemBorderThickness": "1",
+        "TabViewSelectedItemBorderThickness": "1,1,1,0",
+        "TabViewSelectedItemHeaderMargin": "-1,0,-1,1"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/TeachingTip/TeachingTip_themeresources.xaml",
+      "name": "TeachingTip",
+      "variant": "standard",
+      "styles": [
+        "Button"
+      ],
+      "metrics": {
+        "TeachingTipAlternateCloseButtonBorderThickness": "1",
+        "TeachingTipMinHeight": "40",
+        "TeachingTipMaxHeight": "520",
+        "TeachingTipMinWidth": "320",
+        "TeachingTipMaxWidth": "336",
+        "TeachingTipButtonPanelMargin": "0,12,0,0",
+        "TeachingTipRightButtonMargin": "4,12,0,0",
+        "TeachingTipLeftButtonMargin": "0,12,4,0",
+        "TeachingTipMainContentPresentMargin": "0,12,0,0",
+        "TeachingTipMainContentAbsentMargin": "0,0,0,0",
+        "TeachingTipTitleStackPanelMarginWithHeaderCloseButton": "0,0,28,0",
+        "TeachingTipTitleStackPanelMarginWithFooterCloseButton": "0,0,0,0",
+        "TeachingTipIconPresenterMarginWithIcon": "0,0,12,0",
+        "TeachingTipIconPresenterMarginWithoutIcon": "0,0,0,0",
+        "TeachingTipContentBorderThicknessTop": "1,1,1,0",
+        "TeachingTipContentBorderThicknessBottom": "1,0,1,1",
+        "TeachingTipContentBorderThicknessLeft": "1,1,0,1",
+        "TeachingTipContentBorderThicknessRight": "0,1,1,1",
+        "TeachingTipContentBorderThicknessUntargeted": "1,1,1,1",
+        "TeachingTipTailPolygonMarginTop": "0,-1,0,0",
+        "TeachingTipTailPolygonMarginBottom": "0,0,0,-1",
+        "TeachingTipTailPolygonMarginLeft": "-1,0,0,0",
+        "TeachingTipTailPolygonMarginRight": "0,0,-1,0",
+        "TeachingTipAlternateCloseButtonSize": "40",
+        "TeachingTipAlternateCloseButtonGlyphSize": "16",
+        "TeachingTipContentMargin": "12",
+        "TeachingTipTopHighlightHeight": "1",
+        "TeachingTipBorderThickness": "1",
+        "TeachingTipTopHighlightOffsetForBorder": "0,1,0,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/TeachingTip/TeachingTip_themeresources_perf2026.xaml",
+      "name": "TeachingTip",
+      "variant": "perf2026",
+      "styles": [
+        "Button"
+      ],
+      "metrics": {
+        "TeachingTipAlternateCloseButtonBorderThickness": "1",
+        "TeachingTipMinHeight": "40",
+        "TeachingTipMaxHeight": "520",
+        "TeachingTipMinWidth": "320",
+        "TeachingTipMaxWidth": "336",
+        "TeachingTipButtonPanelMargin": "0,12,0,0",
+        "TeachingTipRightButtonMargin": "4,12,0,0",
+        "TeachingTipLeftButtonMargin": "0,12,4,0",
+        "TeachingTipMainContentPresentMargin": "0,12,0,0",
+        "TeachingTipMainContentAbsentMargin": "0,0,0,0",
+        "TeachingTipTitleStackPanelMarginWithHeaderCloseButton": "0,0,28,0",
+        "TeachingTipTitleStackPanelMarginWithFooterCloseButton": "0,0,0,0",
+        "TeachingTipIconPresenterMarginWithIcon": "0,0,12,0",
+        "TeachingTipIconPresenterMarginWithoutIcon": "0,0,0,0",
+        "TeachingTipContentBorderThicknessTop": "1,1,1,0",
+        "TeachingTipContentBorderThicknessBottom": "1,0,1,1",
+        "TeachingTipContentBorderThicknessLeft": "1,1,0,1",
+        "TeachingTipContentBorderThicknessRight": "0,1,1,1",
+        "TeachingTipContentBorderThicknessUntargeted": "1,1,1,1",
+        "TeachingTipTailPolygonMarginTop": "0,-1,0,0",
+        "TeachingTipTailPolygonMarginBottom": "0,0,0,-1",
+        "TeachingTipTailPolygonMarginLeft": "-1,0,0,0",
+        "TeachingTipTailPolygonMarginRight": "0,0,-1,0",
+        "TeachingTipAlternateCloseButtonSize": "40",
+        "TeachingTipAlternateCloseButtonGlyphSize": "16",
+        "TeachingTipContentMargin": "12",
+        "TeachingTipTopHighlightHeight": "1",
+        "TeachingTipBorderThickness": "1",
+        "TeachingTipTopHighlightOffsetForBorder": "0,1,0,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/TitleBar/TitleBar_themeresources.xaml",
+      "name": "TitleBar",
+      "variant": "standard",
+      "styles": [
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "TitleBarCompactHeight": "32",
+        "TitleBarExpandedHeight": "48",
+        "TitleBarBackButtonWidth": "40",
+        "TitleBarPaneToggleButtonWidth": "40",
+        "TitleBarLeftPaddingWidth": "2",
+        "TitleBarRightPaddingWidth": "0",
+        "TitleBarLeftHeaderPaddingWidth": "14",
+        "TitleBarHeaderNegativeInsetPaddingWidth": "2",
+        "TitleBarMinDragRegionWidth": "48",
+        "TitleBarDeactivatedOpacity": "0.5",
+        "TitleBarCompactContentMargin": "0,0,16,0",
+        "TitleBarIconMaxWidth": "16",
+        "TitleBarIconMaxHeight": "16",
+        "TitleBarTitleMinWidth": "0",
+        "TitleBarSubtitleMinWidth": "0",
+        "TitleBarIconMargin": "0,0,16,0",
+        "TitleBarTitleMargin": "0,0,8,0",
+        "TitleBarSubtitleMargin": "0,0,16,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/TitleBar/TitleBar_themeresources_perf2026.xaml",
+      "name": "TitleBar",
+      "variant": "perf2026",
+      "styles": [
+        "Button",
+        "Button"
+      ],
+      "metrics": {
+        "TitleBarCompactHeight": "32",
+        "TitleBarExpandedHeight": "48",
+        "TitleBarBackButtonWidth": "40",
+        "TitleBarPaneToggleButtonWidth": "40",
+        "TitleBarLeftPaddingWidth": "2",
+        "TitleBarRightPaddingWidth": "0",
+        "TitleBarLeftHeaderPaddingWidth": "14",
+        "TitleBarHeaderNegativeInsetPaddingWidth": "2",
+        "TitleBarMinDragRegionWidth": "48",
+        "TitleBarDeactivatedOpacity": "0.5",
+        "TitleBarCompactContentMargin": "0,0,16,0",
+        "TitleBarIconMaxWidth": "16",
+        "TitleBarIconMaxHeight": "16",
+        "TitleBarTitleMinWidth": "0",
+        "TitleBarSubtitleMinWidth": "0",
+        "TitleBarIconMargin": "0,0,16,0",
+        "TitleBarTitleMargin": "0,0,8,0",
+        "TitleBarSubtitleMargin": "0,0,16,0"
+      }
+    },
+    {
+      "file": "microsoft-ui-xaml/controls/dev/TreeView/TreeView_themeresources.xaml",
+      "name": "TreeView",
+      "variant": "standard",
+      "styles": [],
+      "metrics": {
+        "TreeViewItemBorderThemeThickness": "1",
+        "TreeViewItemPresenterMargin": "4,2",
+        "TreeViewItemPresenterPadding": "0,3,0,5",
+        "TreeViewItemMultiSelectSelectedItemBorderMargin": "1",
+        "TreeViewItemMinHeight": "28",
+        "TreeViewItemMultiSelectCheckBoxMinHeight": "28",
+        "TreeViewItemContentHeight": "20"
+      }
+    }
+  ]
+}
