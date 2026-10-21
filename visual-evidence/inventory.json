@@ -1,0 +1,2671 @@
+{
+  "catalog": [
+    {
+      "name": "Button",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Button/ButtonPage.xaml",
+      "upstreamExamples": 4,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Button-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": "visual-evidence/native/Button-dark.jpg",
+          "tauri": "visual-evidence/tauri/Button-dark.jpg",
+          "browser": true,
+          "comparison": "visual-evidence/comparison/Button-dark/metrics.json",
+          "status": "requires-review"
+        }
+      ]
+    },
+    {
+      "name": "RepeatButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/RepeatButton/RepeatButtonPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RepeatButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RepeatButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "HyperlinkButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/HyperlinkButton/HyperlinkButtonPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/HyperlinkButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/HyperlinkButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ToggleButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ToggleButton/ToggleButtonPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "DropDownButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/DropDownButton/DropDownButtonPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/DropDownButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/DropDownButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "SplitButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/SplitButton/SplitButtonPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SplitButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SplitButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ToggleSplitButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ToggleSplitButton/ToggleSplitButtonPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleSplitButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleSplitButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ComboBox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ComboBox/ComboBoxPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ComboBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ComboBox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "CheckBox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/CheckBox/CheckBoxPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CheckBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": "visual-evidence/native/CheckBox-dark.jpg",
+          "tauri": "visual-evidence/tauri/CheckBox-dark.jpg",
+          "browser": true,
+          "comparison": "visual-evidence/comparison/CheckBox-dark/metrics.json",
+          "status": "requires-review"
+        }
+      ]
+    },
+    {
+      "name": "RadioButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/RadioButton/RadioButtonPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RadioButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RadioButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RadioButtons",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RadioButtons-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RadioButtons-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ToggleSwitch",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ToggleSwitch/ToggleSwitchPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleSwitch-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleSwitch-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Slider",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Slider/SliderPage.xaml",
+      "upstreamExamples": 4,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Slider-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Slider-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RatingControl",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/RatingControl/RatingControlPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RatingControl-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RatingControl-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ColorPicker",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ColorPicker/ColorPickerPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ColorPicker-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ColorPicker-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ListBox",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ListBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ListBox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ListView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ListView/ListViewPage.xaml",
+      "upstreamExamples": 10,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ListView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ListView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "GridView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/GridView/GridViewPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/GridView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/GridView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TreeView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TreeView/TreeViewPage.xaml",
+      "upstreamExamples": 4,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TreeView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TreeView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TableView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TableView/TableViewPage.xaml",
+      "upstreamExamples": 5,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TableView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TableView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ItemsView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ItemsView/ItemsViewPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ItemsView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ItemsView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ItemsRepeater",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ItemsRepeater/ItemsRepeaterPage.xaml",
+      "upstreamExamples": 7,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ItemsRepeater-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ItemsRepeater-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ItemContainer",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ItemContainer-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ItemContainer-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "FlipView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/FlipView/FlipViewPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FlipView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FlipView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "FlipViewItem",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FlipViewItem-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FlipViewItem-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "GridViewItem",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/GridViewItem-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/GridViewItem-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ListViewItem",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ListViewItem-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ListViewItem-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "SwipeControl",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/SwipeControl/SwipeControlPage.xaml",
+      "upstreamExamples": 5,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SwipeControl-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SwipeControl-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RefreshContainer",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RefreshContainer-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RefreshContainer-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RefreshVisualizer",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RefreshVisualizer-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RefreshVisualizer-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "CalendarView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/CalendarView/CalendarViewPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CalendarView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CalendarView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "CalendarDatePicker",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/CalendarDatePicker/CalendarDatePickerPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CalendarDatePicker-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CalendarDatePicker-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "DatePicker",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/DatePicker/DatePickerPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/DatePicker-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/DatePicker-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TimePicker",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TimePicker/TimePickerPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TimePicker-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TimePicker-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ContentDialog",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ContentDialog/ContentDialogPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ContentDialog-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ContentDialog-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Flyout",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Flyout/FlyoutPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Flyout-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Flyout-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "FlyoutPresenter",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FlyoutPresenter-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FlyoutPresenter-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "DateTimePickerFlyout",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/DateTimePickerFlyout-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/DateTimePickerFlyout-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "MenuFlyout",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/MenuFlyout/MenuFlyoutPage.xaml",
+      "upstreamExamples": 7,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuFlyout-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuFlyout-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "CommandBarFlyout",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/CommandBarFlyout/CommandBarFlyoutPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CommandBarFlyout-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CommandBarFlyout-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TeachingTip",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TeachingTip/TeachingTipPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TeachingTip-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TeachingTip-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ToolTip",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ToolTip/ToolTipPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToolTip-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToolTip-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Border",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Border/BorderPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Border-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Border-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Canvas/CanvasPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Canvas-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Canvas-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Grid",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Grid/GridPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Grid-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Grid-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RelativePanel",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/RelativePanel/RelativePanelPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RelativePanel-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RelativePanel-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "StackPanel",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/StackPanel/StackPanelPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/StackPanel-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/StackPanel-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "VariableSizedWrapGrid",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/VariableSizedWrapGrid/VariableSizedWrapGridPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/VariableSizedWrapGrid-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/VariableSizedWrapGrid-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "LayoutPanel",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/LayoutPanel/LayoutPanelPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/LayoutPanel-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/LayoutPanel-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Expander",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Expander/ExpanderPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Expander-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Expander-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "SplitView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/SplitView/SplitViewPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SplitView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SplitView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TwoPaneView",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TwoPaneView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TwoPaneView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Viewbox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Viewbox/ViewboxPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Viewbox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Viewbox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ResizeGripper",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ResizeGripper-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ResizeGripper-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Image/ImagePage.xaml",
+      "upstreamExamples": 6,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Image-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Image-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "PersonPicture",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/PersonPicture/PersonPicturePage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PersonPicture-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PersonPicture-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "MediaPlayerElement",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/MediaPlayerElement/MediaPlayerElementPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MediaPlayerElement-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MediaPlayerElement-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "MediaTransportControls",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MediaTransportControls-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MediaTransportControls-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AnimatedIcon",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/AnimatedIcon/AnimatedIconPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AnimatedIcon-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AnimatedIcon-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AnimatedVisualPlayer",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/AnimatedVisualPlayer/AnimatedVisualPlayerPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AnimatedVisualPlayer-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AnimatedVisualPlayer-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ParallaxView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ParallaxView/ParallaxViewPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ParallaxView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ParallaxView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AppBarButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/AppBarButton/AppBarButtonPage.xaml",
+      "upstreamExamples": 6,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AppBarButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AppBarButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AppBarToggleButton",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/AppBarToggleButton/AppBarToggleButtonPage.xaml",
+      "upstreamExamples": 4,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AppBarToggleButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AppBarToggleButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AppBarSeparator",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/AppBarSeparator/AppBarSeparatorPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AppBarSeparator-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AppBarSeparator-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "CommandBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/CommandBar/CommandBarPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CommandBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/CommandBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "MenuBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/MenuBar/MenuBarPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "InkCanvas",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/InkCanvas/InkCanvasPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InkCanvas-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InkCanvas-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "InkToolbar",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InkToolbar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InkToolbar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "MenuBarItem",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuBarItem-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuBarItem-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "MenuFlyoutItem",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuFlyoutItem-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MenuFlyoutItem-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ToggleMenuFlyoutItem",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleMenuFlyoutItem-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ToggleMenuFlyoutItem-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RadioMenuFlyoutItem",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RadioMenuFlyoutItem-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RadioMenuFlyoutItem-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "NavigationView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/NavigationView/NavigationViewPage.xaml",
+      "upstreamExamples": 8,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/NavigationView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/NavigationView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TitleBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TitleBar/TitleBarPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TitleBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TitleBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TabView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TabView/TabViewPage.xaml",
+      "upstreamExamples": 10,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TabView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TabView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/Pivot/PivotPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Pivot-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Pivot-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "BreadcrumbBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/BreadcrumbBar/BreadcrumbBarPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/BreadcrumbBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/BreadcrumbBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "NavigationBackButton",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/NavigationBackButton-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/NavigationBackButton-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "SelectorBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/SelectorBar/SelectorBarPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SelectorBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SelectorBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "PagerControl",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/PagerControl/PagerControlPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PagerControl-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PagerControl-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "PipsPager",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/PipsPager/PipsPagerPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PipsPager-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PipsPager-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ScrollViewer",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ScrollViewer/ScrollViewerPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ScrollViewer-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ScrollViewer-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ScrollView",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ScrollView/ScrollViewPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ScrollView-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ScrollView-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AnnotatedScrollBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/AnnotatedScrollBar/AnnotatedScrollBarPage.xaml",
+      "upstreamExamples": 1,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AnnotatedScrollBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AnnotatedScrollBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ScrollBar",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ScrollBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ScrollBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ProgressBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ProgressBar/ProgressBarPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ProgressBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ProgressBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ProgressRing",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/ProgressRing/ProgressRingPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ProgressRing-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ProgressRing-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "InfoBar",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/InfoBar/InfoBarPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InfoBar-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InfoBar-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "InfoBadge",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/InfoBadge/InfoBadgePage.xaml",
+      "upstreamExamples": 4,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InfoBadge-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/InfoBadge-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "SortIndicator",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SortIndicator-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SortIndicator-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TextBlock",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TextBlock/TextBlockPage.xaml",
+      "upstreamExamples": 5,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TextBlock-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TextBlock-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RichTextBlock",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/RichTextBlock/RichTextBlockPage.xaml",
+      "upstreamExamples": 4,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RichTextBlock-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RichTextBlock-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "Hyperlink",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Hyperlink-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/Hyperlink-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "TextBox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/TextBox/TextBoxPage.xaml",
+      "upstreamExamples": 4,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TextBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/TextBox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "PasswordBox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/PasswordBox/PasswordBoxPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PasswordBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PasswordBox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AutoSuggestBox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/AutoSuggestBox/AutoSuggestBoxPage.xaml",
+      "upstreamExamples": 2,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AutoSuggestBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AutoSuggestBox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "NumberBox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/NumberBox/NumberBoxPage.xaml",
+      "upstreamExamples": 3,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/NumberBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/NumberBox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RichEditBox",
+      "reference": "WinUI-Gallery/WinUIGallery/Samples/RichEditBox/RichEditBoxPage.xaml",
+      "upstreamExamples": 5,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RichEditBox-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RichEditBox-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "SymbolIcon",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SymbolIcon-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/SymbolIcon-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "FontIcon",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FontIcon-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/FontIcon-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "PathIcon",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PathIcon-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/PathIcon-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "ImageIcon",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ImageIcon-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/ImageIcon-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "AcrylicBrush",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AcrylicBrush-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/AcrylicBrush-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "RevealBrush",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RevealBrush-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/RevealBrush-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    },
+    {
+      "name": "MicaBackdrop",
+      "reference": null,
+      "upstreamExamples": 0,
+      "evidence": [
+        {
+          "theme": "light",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MicaBackdrop-light.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        },
+        {
+          "theme": "dark",
+          "native": null,
+          "tauri": "visual-evidence/tauri/MicaBackdrop-dark.jpg",
+          "browser": true,
+          "comparison": null,
+          "status": "pending-system-comparison"
+        }
+      ]
+    }
+  ],
+  "upstreamPagesWithoutExactCatalogMatch": [
+    {
+      "name": "XamlResources",
+      "title": "Resources",
+      "category": "Fundamentals"
+    },
+    {
+      "name": "XamlStyles",
+      "title": "Style",
+      "category": "Fundamentals"
+    },
+    {
+      "name": "Binding",
+      "title": "Binding",
+      "category": "Fundamentals"
+    },
+    {
+      "name": "Templates",
+      "title": "Templates",
+      "category": "Fundamentals"
+    },
+    {
+      "name": "CustomUserControls",
+      "title": "Custom & User Controls",
+      "category": "Fundamentals"
+    },
+    {
+      "name": "CustomXamlConditionals",
+      "title": "XAML Conditions",
+      "category": "Fundamentals"
+    },
+    {
+      "name": "ScratchPad",
+      "title": "Scratch Pad",
+      "category": "Fundamentals"
+    },
+    {
+      "name": "Color",
+      "title": "Color",
+      "category": "Design"
+    },
+    {
+      "name": "Geometry",
+      "title": "Geometry",
+      "category": "Design"
+    },
+    {
+      "name": "Iconography",
+      "title": "Iconography",
+      "category": "Design"
+    },
+    {
+      "name": "Spacing",
+      "title": "Spacing",
+      "category": "Design"
+    },
+    {
+      "name": "Typography",
+      "title": "Typography",
+      "category": "Design"
+    },
+    {
+      "name": "AccessibilityColorContrast",
+      "title": "Color Contrast",
+      "category": "Accessibility"
+    },
+    {
+      "name": "AccessibilityKeyboard",
+      "title": "Keyboard Navigation",
+      "category": "Accessibility"
+    },
+    {
+      "name": "AccessibilityScreenReader",
+      "title": "Screen Reader",
+      "category": "Accessibility"
+    },
+    {
+      "name": "StandardUICommand",
+      "title": "StandardUICommand",
+      "category": "Menus & toolbars"
+    },
+    {
+      "name": "XamlUICommand",
+      "title": "XamlUICommand",
+      "category": "Menus & toolbars"
+    },
+    {
+      "name": "PullToRefresh",
+      "title": "PullToRefresh",
+      "category": "Collections"
+    },
+    {
+      "name": "Popup",
+      "title": "Popup",
+      "category": "Dialogs & flyouts"
+    },
+    {
+      "name": "SemanticZoom",
+      "title": "SemanticZoom",
+      "category": "Scrolling"
+    },
+    {
+      "name": "WrapPanel",
+      "title": "WrapPanel",
+      "category": "Layout"
+    },
+    {
+      "name": "CaptureElementPreview",
+      "title": "Capture Element / Camera Preview",
+      "category": "Media"
+    },
+    {
+      "name": "Chart",
+      "title": "Chart",
+      "category": "Media"
+    },
+    {
+      "name": "MapControl",
+      "title": "MapControl",
+      "category": "Media"
+    },
+    {
+      "name": "Sound",
+      "title": "Sound",
+      "category": "Media"
+    },
+    {
+      "name": "WebView2",
+      "title": "WebView2",
+      "category": "Media"
+    },
+    {
+      "name": "Acrylic",
+      "title": "AcrylicBrush",
+      "category": "Styles"
+    },
+    {
+      "name": "CompactSizing",
+      "title": "Compact Sizing",
+      "category": "Styles"
+    },
+    {
+      "name": "IconElement",
+      "title": "IconElement",
+      "category": "Styles"
+    },
+    {
+      "name": "Line",
+      "title": "Line",
+      "category": "Styles"
+    },
+    {
+      "name": "Shape",
+      "title": "Shape",
+      "category": "Styles"
+    },
+    {
+      "name": "RadialGradientBrush",
+      "title": "RadialGradientBrush",
+      "category": "Styles"
+    },
+    {
+      "name": "SystemBackdrops",
+      "title": "System Backdrops (Mica/Acrylic)",
+      "category": "Styles"
+    },
+    {
+      "name": "SystemBackdropElement",
+      "title": "SystemBackdropElement",
+      "category": "Styles"
+    },
+    {
+      "name": "ThemeShadow",
+      "title": "ThemeShadow",
+      "category": "Styles"
+    },
+    {
+      "name": "XamlCompInterop",
+      "title": "Animation interop",
+      "category": "Motion"
+    },
+    {
+      "name": "ConnectedAnimation",
+      "title": "Connected Animation",
+      "category": "Motion"
+    },
+    {
+      "name": "EasingFunction",
+      "title": "Easing Functions",
+      "category": "Motion"
+    },
+    {
+      "name": "ImplicitTransition",
+      "title": "Implicit Transitions",
+      "category": "Motion"
+    },
+    {
+      "name": "PageTransition",
+      "title": "Page Transitions",
+      "category": "Motion"
+    },
+    {
+      "name": "ThemeTransition",
+      "title": "Theme Transitions",
+      "category": "Motion"
+    },
+    {
+      "name": "AppWindow",
+      "title": "AppWindow",
+      "category": "Windowing"
+    },
+    {
+      "name": "AppWindowTitleBar",
+      "title": "AppWindowTitleBar",
+      "category": "Windowing"
+    },
+    {
+      "name": "Windowing",
+      "title": "Window",
+      "category": "Windowing"
+    },
+    {
+      "name": "Clipboard",
+      "title": "Clipboard",
+      "category": "System"
+    },
+    {
+      "name": "ContentIsland",
+      "title": "ContentIsland",
+      "category": "System"
+    },
+    {
+      "name": "StoragePickers",
+      "title": "Storage pickers",
+      "category": "System"
+    },
+    {
+      "name": "AppNotification",
+      "title": "App notifications",
+      "category": "Shell"
+    },
+    {
+      "name": "BadgeNotificationManager",
+      "title": "Badge notifications",
+      "category": "Shell"
+    },
+    {
+      "name": "JumpList",
+      "title": "JumpList",
+      "category": "Shell"
+    }
+  ]
+}

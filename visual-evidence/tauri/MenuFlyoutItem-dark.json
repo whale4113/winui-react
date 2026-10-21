@@ -1,0 +1,15 @@
+{
+  "control": "MenuFlyoutItem",
+  "theme": "dark",
+  "window": {
+    "app": "process:D:\\workspace\\winui-react\\src-tauri\\target\\release\\winui-react-gallery.exe",
+    "id": 789694,
+    "title": "WinUI React Gallery"
+  },
+  "captureMethod": "Windows.Graphics.Capture",
+  "capturedAt": "2026-10-20T16:58:17.733Z",
+  "width": 1442,
+  "height": 864,
+  "status": "requires-review",
+  "accessibility": null
+}

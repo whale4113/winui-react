@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss" source("./");
 @import "tw-animate-css";
 @import "./fluent/tokens.css";
 @custom-variant dark (&:is(.dark *));
@@ -1358,7 +1358,7 @@ small,
   display: flex;
   align-items: center;
   padding: 32px;
-  background: var(--CardBackgroundFillColorDefault);
+  background: var(--SolidBackgroundFillColorBase);
   overflow: auto;
 }
 .sample-stage > div {
@@ -3713,4 +3713,65 @@ main > h2 {
   font-size: 12px;
   width: 12px;
   height: 12px;
+}
+/* Gallery 3.0.4 shell, measured from the installed Windows application. */
+.titlebar-search.nav-search { position:absolute; left:calc(50% - 290px); width:580px; margin:0; height:34px; }
+.legacy-search[hidden] { display:none; }
+.window-chrome > button { width:46px; height:48px; border:0; background:transparent; font-size:14px; padding:0; }
+.window-chrome > button:hover { background:var(--SubtleFillColorSecondary); }
+.window-chrome > button:last-child:hover { background:#c42b1c; color:white; }
+.window-chrome > button:disabled { opacity:1; }
+.gallery-nav { width:320px; }
+.gallery-main { margin-left:320px; }
+.gallery-nav .nav-hamburger { display:none; }
+.native-home-hero { margin:-20px -40px 0; padding:44px 36px 140px; min-height:300px; background:#071126 url('/gallery-header.png') center / cover; color:white; }
+.native-home-hero p { font-size:18px; margin:0 0 12px; }
+.native-home-hero h1 { font-size:40px; line-height:48px; margin:0; }
+.home-resource-cards { display:flex; gap:12px; margin:-100px -4px 48px; position:relative; }
+.home-resource-cards > button { flex:1; min-width:0; min-height:172px; padding:24px; text-align:left; border:1px solid var(--CardStrokeColorDefault); border-radius:8px; background:var(--SolidBackgroundFillColorSecondary); }
+.home-resource-cards > button > .fluent-icon:first-child { display:block; font-size:32px; color:var(--win-accent); margin-bottom:20px; }
+.home-resource-cards strong { display:block; }
+.home-resource-cards p { margin:4px 0; font-size:12px; line-height:16px; color:var(--TextFillColorSecondary); }
+.home-resource-cards > button > .fluent-icon:last-child { display:block; text-align:right; }
+@media(max-width:1100px) { .titlebar-search.nav-search { left:250px; right:150px; width:auto; } }
+@media(max-width:800px) { .gallery-main {margin-left:0;} .gallery-nav {width:280px;} .titlebar-search.nav-search {left:200px;} .home-resource-cards { flex-wrap:wrap; } .home-resource-cards > button { min-width:180px;} }
+@media(max-width:540px) { .titlebar-search.nav-search {left:48px; right:145px;} .app-titlebar > .win-logo, .app-titlebar > span:last-of-type {display:none;} }
+.native-example-row { display:flex; }
+.native-example-row .sample-stage { min-height:92px; padding:24px 12px; flex:1; gap:24px; }
+.native-example-output { margin-left:auto; white-space:nowrap; }
+.native-example-output span { display:block; }
+.wrapping-buttons { width:100%; align-items:stretch; gap:8px; }
+.wrapping-buttons > .demo-row { justify-content:center; }
+.wrapping-buttons > .demo-row button { width:225px; height:auto; white-space:normal; text-align:left; }
+.native-example-options { padding:24px 16px; background:var(--SubtleFillColorSecondary); border-left:1px solid var(--CardStrokeColorDefault); }
+.native-button-examples .sample-section h2 { font-size:14px; line-height:20px; margin-bottom:12px; }
+.native-button-examples .sample-section { margin:28px 0 32px; }
+.native-source { background:var(--SubtleFillColorSecondary); border-top:1px solid var(--CardStrokeColorDefault); }
+.native-source summary { padding:12px 16px; list-style:none; cursor:default; }
+.native-source summary::after { content:'⌄'; float:right; }
+.native-source[open] summary::after { content:'⌃'; }
+.native-source pre { white-space:pre-wrap; padding:16px; margin:0; font:13px/20px Consolas,monospace; }
+.image-button { width:50px; height:50px; padding:8px; }
+.image-button img { width:32px; height:32px; object-fit:contain; }
+.card-control-icon img { width:64px; height:48px; object-fit:contain; }
+.control-detail .gallery-toolbar, .home-detail .gallery-toolbar { display:none; }
+.control-detail .gallery-scroll main { padding:28px 36px 48px; }
+.control-detail .page-heading { display:block; margin-bottom:16px; }
+.control-detail h1 { font-size:28px; line-height:36px; margin:0 0 12px; }
+.page-actions {display:flex; gap:4px;}
+.page-actions .doc-link { height:32px; padding:0 12px; border:1px solid var(--ControlStrokeColorDefault); border-radius:4px; background:var(--ControlFillColorDefault); color:var(--foreground); }
+.control-detail .control-description { line-height:19px; margin:0 0 28px; max-width:none; }
+.control-detail .sample-section h2 { font-size:14px; }
+.control-detail .gallery-toolbar { display:flex; position:absolute; right:36px; top:120px; height:32px; width:40px; padding:0; z-index:2; }
+.control-detail .gallery-toolbar > div { display:none; }
+.home-detail .gallery-toolbar { display:flex; position:absolute; right:36px; top:56px; height:32px; width:40px; padding:0; z-index:2; }
+.home-detail .gallery-toolbar > div { display:none; }
+/* Expose the compositor backdrop only after the native Mica call succeeds. */
+html.native-mica, .native-mica body, .native-mica #root,
+.native-mica .gallery, .native-mica .app-titlebar, .native-mica .gallery-nav {
+  background: transparent;
+}
+.native-mica .gallery-main { background: var(--LayerFillColorDefault); }
+@media (forced-colors: active) {
+  html.native-mica, .native-mica body, .native-mica .gallery { background: Canvas; }
 }

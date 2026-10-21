@@ -1,0 +1,25 @@
+{
+  "control": "Button",
+  "theme": "dark",
+  "interaction": "disabled",
+  "viewport": "maximized-top",
+  "implementation": "native",
+  "window": {
+    "app": "Microsoft.WinUI3ControlsGallery_8wekyb3d8bbwe!App",
+    "id": 68614,
+    "title": "WinUI Gallery"
+  },
+  "captureMethod": "Windows.Graphics.Capture",
+  "recordedAt": "2026-10-21T00:59:26.392Z",
+  "surfaces": [
+    {
+      "filename": "Button-dark-disabled-maximized-top-surface-0.jpg",
+      "width": 1536,
+      "height": 816,
+      "originX": 0,
+      "originY": 0,
+      "zIndex": 0
+    }
+  ],
+  "status": "requires-paired-reference-review"
+}

@@ -11,6 +11,10 @@ import { Slider } from "./components/ui/slider";
 import { TooltipProvider } from "./components/ui/tooltip";
 import { Toaster } from "./components/ui/sonner";
 import "./styles.css";
+import { desktop, windowAction, systemAccent, setMica, type AccentColors } from './desktop';
+import { galleryReference } from './fluent/gallery-reference';
+import { GalleryButton } from './fluent/gallery-button';
+import { GalleryCheckBox } from './fluent/gallery-checkbox';
 
 const categoryIcons = [
   "document",
@@ -196,14 +200,14 @@ function ControlPage({
   onNavigate: (page: string) => void;
 }) {
   const [tab, setTab] = useState("sample");
+  const reference = galleryReference(entry.name);
   return (
     <>
       <div className="page-heading">
         <div>
-          <p className="page-path">{entry.category}</p>
           <h1>{entry.name}</h1>
         </div>
-        <a
+        <div className="page-actions"><a
           className="doc-link"
           href={
             "https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/" +
@@ -216,10 +220,11 @@ function ControlPage({
         >
           Documentation <FluentIcon name="forward" />
         </a>
+        <a className="doc-link" href="https://github.com/microsoft/WinUI-Gallery" target="_blank" rel="noreferrer">Source <FluentIcon name="down" /></a></div>
       </div>
-      <p className="control-description">{entry.description}</p>
-      <section className="sample-section" data-control={entry.name}>
-        <h2>A simple {entry.name}</h2>
+      <p className="control-description">{reference?.description || entry.description}</p>
+      {entry.name === 'Button' ? <GalleryButton /> : entry.name === 'CheckBox' ? <GalleryCheckBox /> : <section className="sample-section" data-control={entry.name}>
+        <h2>{reference?.examples[0]?.content?.match(/--- header\s+([^\r\n]+)/)?.[1] || `A simple ${entry.name}`}</h2>
         <div className="sample-frame">
           <div className="sample-stage">
             <AdvancedDemo name={entry.name} />
@@ -241,7 +246,7 @@ function ControlPage({
           </div>
           {tab === "source" && <SourcePanel entry={entry} />}
         </div>
-      </section>
+      </section>}
       <StateSamples name={entry.name} />
       {limitations[entry.name] && (
         <div className="implementation-boundary">
@@ -275,13 +280,34 @@ function App() {
   const [page, setPage] = useState(initial || "Home"),
     [query, setQuery] = useState(""),
     [expanded, setExpanded] = useState<string[]>([]),
-    [dark, setDark] = useState(
-      () => localStorage.getItem("winui-theme") === "dark",
-    ),
+    [themeMode, setThemeMode] = useState<'system' | 'dark' | 'light'>(() => {
+      const saved = localStorage.getItem('winui-theme-mode');
+      return saved === 'dark' || saved === 'light' ? saved : 'system';
+    }),
     [accent, setAccent] = useState(
       () => localStorage.getItem("winui-accent") || "default",
     ),
     [mobile, setMobile] = useState(false);
+  const [systemColors, setSystemColors] = useState<AccentColors | null>(null);
+  const [systemDark, setSystemDark] = useState(() => matchMedia('(prefers-color-scheme: dark)').matches);
+  const dark = themeMode === 'system' ? (systemColors ? systemColors.theme === 'dark' : systemDark) : themeMode === 'dark';
+  useEffect(() => {
+    const media = matchMedia('(prefers-color-scheme: dark)');
+    const update = () => setSystemDark(media.matches);
+    media.addEventListener('change', update);
+    return () => media.removeEventListener('change', update);
+  }, []);
+  useEffect(() => {
+    let disposed = false;
+    const refresh = () => { void systemAccent().then(colors => {
+      if (!disposed) setSystemColors(old =>
+        old?.theme === colors?.theme && old?.background === colors?.background && old?.foreground === colors?.foreground && old?.accent === colors?.accent && old?.light === colors?.light && old?.dark === colors?.dark ? old : colors);
+    }).catch(error => console.warn('Cannot read Windows accent', error)); };
+    refresh();
+    window.addEventListener('focus', refresh);
+    const timer = desktop ? window.setInterval(refresh, 2000) : undefined;
+    return () => { disposed = true; window.removeEventListener('focus', refresh); window.clearInterval(timer); };
+  }, []);
   function navigate(next: string) {
     setPage(next);
     setQuery("");
@@ -298,15 +324,32 @@ function App() {
     return () => window.removeEventListener("hashchange", change);
   }, []);
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", dark);
-    localStorage.setItem("winui-theme", dark ? "dark" : "light");
-  }, [dark]);
+    const shortcuts = (event: KeyboardEvent) => {
+      if (event.ctrlKey && event.key.toLowerCase() === 'f') {
+        event.preventDefault();
+        document.querySelector<HTMLInputElement>('.titlebar-search input')?.focus();
+      }
+      // Deterministic desktop capture traversal, enabled only for visual audit runs.
+      if ((desktop || new URLSearchParams(location.search).has('visual-audit')) && event.ctrlKey && event.altKey && event.key === 'ArrowRight') {
+        event.preventDefault();
+        const index = catalog.findIndex(entry => entry.name === decodeURIComponent(location.hash.slice(1)));
+        navigate(catalog[(index + 1) % catalog.length].name);
+      }
+    };
+    window.addEventListener('keydown', shortcuts);
+    return () => window.removeEventListener('keydown', shortcuts);
+  }, []);
   useEffect(() => {
-    if (accent === "default" || accent === "#0067c0")
-      document.documentElement.style.removeProperty("--win-accent");
-    else document.documentElement.style.setProperty("--win-accent", accent);
+    document.documentElement.classList.toggle("dark", dark);
+    void setMica(dark);
+  }, [dark]);
+  useEffect(() => { localStorage.setItem('winui-theme-mode', themeMode); }, [themeMode]);
+  useEffect(() => {
+    const color = accent === 'default' ? (dark ? systemColors?.light : systemColors?.dark) : accent;
+    if (color) document.documentElement.style.setProperty('--win-accent', color);
+    else document.documentElement.style.removeProperty('--win-accent');
     localStorage.setItem("winui-accent", accent);
-  }, [accent]);
+  }, [accent, dark, systemColors]);
   const entry = catalog.find((x) => x.name === page),
     category = categories.find((x) => x.name === page),
     filtered = catalog.filter((x) =>
@@ -319,13 +362,13 @@ function App() {
       {items.map((x) => (
         <button key={x.name} onClick={() => navigate(x.name)}>
           <span className="card-control-icon">
-            <FluentIcon
+            {galleryReference(x.name)?.image ? <img src={galleryReference(x.name)!.image} alt="" /> : <FluentIcon
               name={
                 categoryIcons[
                   categories.findIndex((c) => c.name === x.category)
                 ] || "document"
               }
-            />
+            />}
           </span>
           <div>
             <strong>{x.name}</strong>
@@ -339,7 +382,7 @@ function App() {
   return (
     <TooltipProvider>
       <div className="gallery">
-        <header className="app-titlebar">
+        <header className="app-titlebar" data-tauri-drag-region>
           <button
             className="titlebar-back icon-btn"
             aria-label="后退"
@@ -354,11 +397,15 @@ function App() {
             <i />
             <i />
           </span>
-          <span>WinUI React Gallery</span>
-          <div className="window-chrome" aria-hidden="true">
-            <span>─</span>
-            <span>□</span>
-            <span>×</span>
+          <span data-tauri-drag-region>WinUI Gallery</span>
+          <div className="titlebar-search nav-search">
+            <input aria-label="搜索组件" placeholder="Search controls and samples..." value={query} onChange={e => setQuery(e.target.value)} onKeyDown={e => { if(e.key === 'Enter' && filtered[0]) navigate(filtered[0].name); }} />
+            <FluentIcon name="search" />
+          </div>
+          <div className="window-chrome">
+            <button aria-label="最小化" disabled={!desktop} onClick={() => void windowAction('minimize')}>─</button>
+            <button aria-label="最大化或还原" disabled={!desktop} onClick={() => void windowAction('toggleMaximize')}>□</button>
+            <button aria-label="关闭窗口" disabled={!desktop} onClick={() => void windowAction('close')}>×</button>
           </div>
         </header>
         <aside className={"gallery-nav " + (mobile ? "nav-open" : "")}>
@@ -369,9 +416,9 @@ function App() {
           >
             <FluentIcon name="menu" />
           </button>
-          <div className="nav-search">
+          <div className="nav-search legacy-search" hidden>
             <input
-              aria-label="搜索组件"
+              aria-label="侧栏搜索组件"
               placeholder="Search controls"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
@@ -473,7 +520,7 @@ function App() {
             </button>
           </div>
         </aside>
-        <div className="gallery-main">
+        <div className={'gallery-main' + (entry ? ' control-detail' : '') + (page === 'Home' && !query ? ' home-detail' : '')}>
           <div className="gallery-toolbar">
             <button
               className="mobile-menu icon-btn"
@@ -498,7 +545,7 @@ function App() {
             <button
               className="icon-btn"
               aria-label="切换深浅主题"
-              onClick={() => setDark(!dark)}
+              onClick={() => setThemeMode(dark ? 'light' : 'dark')}
             >
               <FluentIcon name={dark ? "sun" : "moon"} />
             </button>
@@ -525,27 +572,16 @@ function App() {
                 <ControlPage entry={entry} onNavigate={navigate} />
               ) : page === "Home" ? (
                 <>
-                  <h1>WinUI React Gallery</h1>
-                  <p className="page-subtitle">
-                    Explore Windows UI controls, styles, and patterns.
-                  </p>
-                  <div className="gallery-home-banner">
-                    <span className="win-logo">
-                      <i />
-                      <i />
-                      <i />
-                      <i />
-                    </span>
-                    <div>
-                      <h2>Windows UI for React</h2>
-                      <p>
-                        控件样式对照 microsoft-ui-xaml，交互基于 shadcn/ui ·
-                        Base UI。
-                      </p>
-                      <Button onClick={() => navigate("All controls")}>
-                        View all controls <FluentIcon name="forward" />
-                      </Button>
-                    </div>
+                  <div className="native-home-hero">
+                    <p>Windows App SDK 2.5 (experimental)</p>
+                    <h1>WinUI Gallery</h1>
+                  </div>
+                  <div className="home-resource-cards">
+                    {[
+                      ['Getting started', 'Get started with WinUI and explore detailed documentation.', 'All controls', 'code'],
+                      ['Design', 'Guidelines and toolkits for creating stunning WinUI experiences.', 'Design resources', 'color'],
+                      ['WinUI on GitHub', 'Explore the WinUI source code and repository.', 'Source inventory', 'folder'],
+                    ].map(([title, description, target, icon]) => <button key={title} onClick={() => navigate(target)}><FluentIcon name={icon} /><strong>{title}</strong><p>{description}</p><FluentIcon name="forward" /></button>)}
                   </div>
                   <section className="home-samples">
                     <h2>Common controls</h2>
@@ -599,13 +635,14 @@ function App() {
                   <div className="settings-row">
                     <div>
                       <strong>App theme</strong>
-                      <p>选择应用的深浅主题。</p>
+                      <p>系统当前主题：{systemColors?.theme ?? (systemDark ? 'dark' : 'light')}。默认跟随系统。</p>
                     </div>
                     <select
                       aria-label="应用主题"
-                      value={dark ? "dark" : "light"}
-                      onChange={(e) => setDark(e.target.value === "dark")}
+                      value={themeMode}
+                      onChange={(e) => setThemeMode(e.target.value as 'system' | 'light' | 'dark')}
                     >
+                      <option value="system">System</option>
                       <option value="light">Light</option>
                       <option value="dark">Dark</option>
                     </select>
@@ -613,7 +650,7 @@ function App() {
                   <div className="settings-row">
                     <div>
                       <strong>Accent color</strong>
-                      <p>默认色随主题切换。</p>
+                      <p>系统强调色：{systemColors?.accent ?? '—'}。默认跟随系统，并随深浅主题选择对应色阶。</p>
                     </div>
                     <div className="accent-swatches">
                       {["default", "#744da9", "#007f70", "#ad4b00"].map((x) => (
@@ -622,7 +659,7 @@ function App() {
                           aria-label={"强调色 " + x}
                           aria-pressed={accent === x}
                           style={{
-                            background: x === "default" ? "#0067c0" : x,
+                            background: x === "default" ? (systemColors?.accent ?? "#0067c0") : x,
                           }}
                           onClick={() => setAccent(x)}
                         >

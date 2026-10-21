@@ -1,0 +1,33 @@
+{
+  "control": "DropDownButton",
+  "theme": "dark",
+  "interaction": "icon-open",
+  "viewport": "bottom",
+  "implementation": "native",
+  "window": {
+    "app": "Microsoft.WinUI3ControlsGallery_8wekyb3d8bbwe!App",
+    "id": 68614,
+    "title": "WinUI Gallery"
+  },
+  "captureMethod": "Windows.Graphics.Capture",
+  "recordedAt": "2026-10-21T00:57:26.020Z",
+  "surfaces": [
+    {
+      "filename": "DropDownButton-dark-icon-open-bottom-surface-0.jpg",
+      "width": 1139,
+      "height": 586,
+      "originX": 136,
+      "originY": 128,
+      "zIndex": 0
+    },
+    {
+      "filename": "DropDownButton-dark-icon-open-bottom-surface-1.jpg",
+      "width": 134,
+      "height": 123,
+      "originX": 586,
+      "originY": 703,
+      "zIndex": 1
+    }
+  ],
+  "status": "requires-paired-reference-review"
+}

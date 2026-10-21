@@ -8,9 +8,17 @@
 npm install
 npm run dev
 npm test
+npm run desktop:dev   # Tauri + WebView2 桌面应用
+npm run desktop:build # 生成 Windows Release 可执行文件
 ```
 
 开发预览默认运行于 http://localhost:5173。`npm test` 依次验证生成资源与源码一致、执行 TypeScript 检查和生产构建，再通过 Microsoft Edge 运行 Playwright。测试机器需要安装 Edge；测试会自动启动 4173 端口的生产预览。
+
+Windows debug 宿主使用项目内 `.webview2-dev/main` 保存 WebView2 缓存和 localStorage，与 Release 的 AppData 配置隔离，避免开发/测试创建的目录权限或浏览器配置影响正常启动。可通过 `WEBVIEW2_USER_DATA_FOLDER` 显式覆盖；该变量指向的目录必须可写。Vite 不监听 WebView2 配置目录，避免 Cookies 文件锁引发 `EBUSY`。更改启动代码后，先关闭已有的 Gallery debug 进程，再重新运行 `npm run desktop:dev`，避免 Windows 锁定 exe 导致编译时报“拒绝访问”。
+
+Vite 的依赖扫描入口固定为 `index.html`，不监听 `WinUI-Gallery`、`microsoft-ui-xaml`、桌面构建产物和系统截图目录。避免扫描大型参考仓库时服务器显示 ready 却无法返回页面，导致桌面窗口停留在空白页。`node scripts/verify-dev.mjs` 可对运行中的开发服务器检查真实页面渲染。
+
+Windows 外观默认使用 System 模式：通过 UISettings 读取当前 dark/light、背景色、前景色及 Accent/AccentLight2/AccentDark1，并在系统设置变化后自动刷新。设置页可切换 System/Light/Dark 和查看原始系统强调色。Mica 使用 window-vibrancy，扩展到整个无边框客户区并设置透明底色；Windows 11 22H2 及以上读取 DWM backdrop type 2 确认启用，失败时保留实色背景。
 
 ## 对齐方式
 
@@ -65,7 +73,19 @@ import './src/styles.css'
 
 测试包含 105 个示例在深浅主题下渲染、166 个原始主题色值、关键 XAML 尺寸、树键盘导航、标签页增删、建议选择、数值步进、日历弹层、表格排序/全选、评分键盘交互、RGB/Hex 联动、Canvas 绘制与清除、真实视频播放，以及 390px 窄屏布局与主题持久化。
 
-截图输出在 `test-results/`。当前未安装原生 WinUI Gallery，因此未执行与原生控件截图的逐像素对比；不能据此声称完整原生等效或全量 WCAG 认证。
+浏览器截图输出在 `test-results/catalog/light/` 和 `test-results/catalog/dark/`，覆盖 105 个现有 React 示例。这些截图用于浏览器渲染检查，不代替系统截图对照。
+
+本机已安装原生 WinUI Gallery 3.0.4。系统截图证据存放于 `visual-evidence/native/` 和 `visual-evidence/tauri/`，通过 computer-use 的 Windows.Graphics.Capture 获取。具体已采集和缺失的控件见 [visual-evidence/STATUS.md](./visual-evidence/STATUS.md)；未采集或未复核的条目保持 pending，不声称全组件视觉通过。
+
+```sh
+node scripts/sync-gallery.mjs          # 索引本地 Gallery 的 126 个页面及示例来源
+node scripts/audit-gallery-visuals.mjs # 刷新逐控件系统截图覆盖清单
+node scripts/compare-system-captures.mjs native.jpg tauri.jpg output-directory crops.json
+```
+
+差分工具要求相同截图尺寸，或显式提供等尺寸裁剪区域 `{ "reference": { "left": 0, "top": 0, "width": 100, "height": 32 }, "candidate": { "left": 0, "top": 0, "width": 100, "height": 32 } }`。不会缩放图片；输出并排图、四倍增强差分图和误差数据。JPEG 噪声容差为 16/255，误差指标不自动代表通过。
+
+桌面端使用真实窗口拖动、最小化、最大化/还原和关闭按钮。Release 文件位于 `src-tauri/target/release/winui-react-gallery.exe`。控件目录保持现有 105 个示例；目前仅 Button 和 CheckBox 按 Gallery 多示例结构单独移植，其余示例仍存在内容与原生行为差异。126 个上游页面还包含设计和基础知识页面，并不等于 126 个已移植控件。
 
 ## 上游
 

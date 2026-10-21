@@ -1,0 +1,25 @@
+{
+  "control": "DropDownButton",
+  "theme": "dark",
+  "interaction": "keyboard-focus",
+  "viewport": "top",
+  "implementation": "native",
+  "window": {
+    "app": "Microsoft.WinUI3ControlsGallery_8wekyb3d8bbwe!App",
+    "id": 68614,
+    "title": "WinUI Gallery"
+  },
+  "captureMethod": "Windows.Graphics.Capture",
+  "recordedAt": "2026-10-21T00:57:06.060Z",
+  "surfaces": [
+    {
+      "filename": "DropDownButton-dark-keyboard-focus-top-surface-0.jpg",
+      "width": 1139,
+      "height": 586,
+      "originX": 136,
+      "originY": 128,
+      "zIndex": 0
+    }
+  ],
+  "status": "requires-paired-reference-review"
+}

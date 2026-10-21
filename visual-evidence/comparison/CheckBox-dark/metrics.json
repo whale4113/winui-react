@@ -1,0 +1,25 @@
+{
+  "reference": "visual-evidence/native/CheckBox-dark.jpg",
+  "candidate": "visual-evidence/tauri/CheckBox-dark.jpg",
+  "crops": {
+    "reference": {
+      "left": 370,
+      "top": 316,
+      "width": 180,
+      "height": 32
+    },
+    "candidate": {
+      "left": 370,
+      "top": 321,
+      "width": 180,
+      "height": 32
+    }
+  },
+  "width": 180,
+  "height": 32,
+  "meanAbsoluteChannelError": 19.349421296296295,
+  "changedPixelRatio": 0.22170138888888888,
+  "noiseTolerance": 16,
+  "status": "requires-review",
+  "captureMethod": "Windows.Graphics.Capture"
+}

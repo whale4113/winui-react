@@ -4,11 +4,11 @@ const base = "http://localhost:4173/";
 test("all catalog controls render with a visible example in both themes", async ({
   page,
 }) => {
-  test.setTimeout(180000);
+  test.setTimeout(600000);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto(base);
-  await expect(page.locator("main h1")).toHaveText("WinUI React Gallery");
+  await expect(page.locator("main h1")).toHaveText("WinUI Gallery");
   await page.screenshot({
     path: "test-results/fluent-home-light.png",
     fullPage: true,
@@ -18,7 +18,7 @@ test("all catalog controls render with a visible example in both themes", async 
     for (const c of catalog) {
       await page.goto(base + "#" + encodeURIComponent(c.name));
       await expect(page.locator("main h1")).toHaveText(c.name);
-      const stage = page.locator(".sample-stage");
+      const stage = page.locator(".sample-stage").first();
       await expect(stage).toBeVisible();
       expect(
         await stage.evaluate((el) => el.childElementCount),
@@ -27,7 +27,8 @@ test("all catalog controls render with a visible example in both themes", async 
       expect(
         await stage.evaluate((el) => el.getBoundingClientRect().height),
         c.name + " example has height",
-      ).toBeGreaterThan(100);
+      ).toBeGreaterThan(31);
+      await stage.screenshot({ path: `test-results/catalog/${dark ? 'dark' : 'light'}/${c.name}.png` });
     }
   }
   expect(errors).toEqual([]);

@@ -1,0 +1,56 @@
+
+thread 'main' (2920) panicked at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.12.4\src\app.rs:1444:11:
+Failed to setup app: runtime error: failed to create webview: WebView2 error: WindowsError(Error { code: HRESULT(0x8000FFFF), message: "灾难性故障" })
+stack backtrace:
+   0: std::panicking::panic_handler
+             at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library\std\src\panicking.rs:679
+   1: core::panicking::panic_fmt
+             at /rustc/58cf8f9c35b355199727627d07ae34a4e2846d67/library\core\src\panicking.rs:80
+   2: tauri::app::impl$16::make_run_event_loop_callback::closure$0<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> >,tauri::app::impl$19::run::closure_env$0<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> > > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.12.4\src\app.rs:1444
+   3: tauri_runtime_wry::handle_event_loop<enum2$<tauri::EventLoopMessage> >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-wry-2.12.2\src\lib.rs:4120
+   4: tauri_runtime_wry::make_event_handler::closure$0<enum2$<tauri::EventLoopMessage>,tauri::app::impl$16::make_run_event_loop_callback::closure_env$0<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> >,tauri::app::impl$19::run::closure_env$0<tauri_runtime
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-wry-2.12.2\src\lib.rs:3144
+   5: tao::platform_impl::platform::event_loop::impl$3::run_return::closure$0<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > >,tauri_runtime_wry::make_event_handler::closure_env$0<enum2$<tauri::EventLoopMessage>,tauri::app::impl$16::make_run
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop.rs:241
+   6: alloc::boxed::impl$32::call_mut<tuple$<enum2$<tao::event::Event<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > > >,ref_mut$<enum2$<tao::event_loop::ControlFlow> > >,dyn$<core::ops::function::FnMut<tuple$<enum2$<tao::event::Event<enum
+             at D:\ProgramData\RustupHome\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\alloc\src\boxed.rs:2327
+   7: tao::platform_impl::platform::event_loop::runner::impl$3::call_event_handler::closure$0<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop\runner.rs:251
+   8: core::panic::unwind_safe::impl$25::call_once<tuple$<>,tao::platform_impl::platform::event_loop::runner::impl$3::call_event_handler::closure_env$0<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > > >
+             at D:\ProgramData\RustupHome\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\core\src\panic\unwind_safe.rs:275
+   9: std::panicking::catch_unwind::do_call<core::panic::unwind_safe::AssertUnwindSafe<tao::platform_impl::platform::event_loop::runner::impl$3::call_event_handler::closure_env$0<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > > >,tuple$<> 
+             at D:\ProgramData\RustupHome\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\std\src\panicking.rs:576
+  10: core::cmp::PartialEq::ne<windows::Win32::Graphics::Gdi::HMONITOR,windows::Win32::Graphics::Gdi::HMONITOR>
+  11: std::panicking::catch_unwind
+             at D:\ProgramData\RustupHome\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\std\src\panicking.rs:544
+  12: std::panic::catch_unwind<core::panic::unwind_safe::AssertUnwindSafe<tao::platform_impl::platform::event_loop::runner::impl$3::call_event_handler::closure_env$0<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > > >,tuple$<> >
+             at D:\ProgramData\RustupHome\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\std\src\panic.rs:359
+  13: tao::platform_impl::platform::event_loop::runner::EventLoopRunner<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::catch_unwind<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > >,tuple$<>,tao::platform_impl::platf
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop\runner.rs:156
+  14: tao::platform_impl::platform::event_loop::runner::EventLoopRunner<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::call_event_handler<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop\runner.rs:243
+  15: tao::platform_impl::platform::event_loop::runner::EventLoopRunner<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::call_new_events<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop\runner.rs:399
+  16: tao::platform_impl::platform::event_loop::runner::EventLoopRunner<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::move_state_to<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop\runner.rs:311
+  17: tao::platform_impl::platform::event_loop::runner::EventLoopRunner<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::poll<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop\runner.rs:205
+  18: tao::platform_impl::platform::event_loop::EventLoop<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::run_return<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > >,tauri_runtime_wry::make_event_handler::closure_env
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop.rs:250
+  19: tao::platform_impl::platform::event_loop::EventLoop<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::run<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > >,tauri_runtime_wry::make_event_handler::closure_env$0<enum
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\platform_impl\windows\event_loop.rs:225
+  20: tao::event_loop::EventLoop<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > > >::run<enum2$<tauri_runtime_wry::Message<enum2$<tauri::EventLoopMessage> > >,tauri_runtime_wry::make_event_handler::closure_env$0<enum2$<tauri::EventLoopMessag
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tao-0.37.1\src\event_loop.rs:224
+  21: tauri_runtime_wry::impl$37::run<enum2$<tauri::EventLoopMessage>,tauri::app::impl$16::make_run_event_loop_callback::closure_env$0<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> >,tauri::app::impl$19::run::closure_env$0<tauri_runtime_wry::Wry<enum2$<
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-wry-2.12.2\src\lib.rs:3093
+  22: tauri::app::App<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> > >::run<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> >,tauri::app::impl$19::run::closure_env$0<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> > > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.12.4\src\app.rs:1391
+  23: tauri::app::Builder<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> > >::run<tauri_runtime_wry::Wry<enum2$<tauri::EventLoopMessage> > >
+             at D:\ProgramData\CargoHome\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.12.4\src\app.rs:2617
+  24: winui_react_gallery::main
+             at .\src-tauri\src\main.rs:39
+  25: core::ops::function::FnOnce::call_once<void (*)(),tuple$<> >
+             at D:\ProgramData\RustupHome\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\library\core\src\ops\function.rs:250
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.

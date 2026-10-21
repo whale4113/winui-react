@@ -1,0 +1,25 @@
+{
+  "reference": "visual-evidence/native/Button-dark.jpg",
+  "candidate": "visual-evidence/tauri/Button-dark.jpg",
+  "crops": {
+    "reference": {
+      "left": 370,
+      "top": 316,
+      "width": 164,
+      "height": 32
+    },
+    "candidate": {
+      "left": 369,
+      "top": 301,
+      "width": 164,
+      "height": 32
+    }
+  },
+  "width": 164,
+  "height": 32,
+  "meanAbsoluteChannelError": 28.729801829268293,
+  "changedPixelRatio": 0.8182164634146342,
+  "noiseTolerance": 16,
+  "status": "requires-review",
+  "captureMethod": "Windows.Graphics.Capture"
+}

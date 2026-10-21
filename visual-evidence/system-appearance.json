@@ -1,0 +1,15 @@
+{
+  "appearance": {
+    "theme": "dark",
+    "background": "#000000",
+    "foreground": "#ffffff",
+    "accent": "#a94dc1",
+    "light": "#db9ee5",
+    "dark": "#8e3aa7"
+  },
+  "dwmBackdrop": 2,
+  "themeMode": "system",
+  "appliedAccent": "#db9ee5",
+  "classes": "dark native-mica",
+  "verifiedAt": "2026-10-21T01:34:13.362Z"
+}

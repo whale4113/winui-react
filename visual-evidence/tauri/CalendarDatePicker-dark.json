@@ -1,0 +1,15 @@
+{
+  "control": "CalendarDatePicker",
+  "theme": "dark",
+  "window": {
+    "app": "process:D:\\workspace\\winui-react\\src-tauri\\target\\release\\winui-react-gallery.exe",
+    "id": 789694,
+    "title": "WinUI React Gallery"
+  },
+  "captureMethod": "Windows.Graphics.Capture",
+  "capturedAt": "2026-10-20T16:49:41.964Z",
+  "width": 1442,
+  "height": 864,
+  "status": "requires-review",
+  "accessibility": null
+}

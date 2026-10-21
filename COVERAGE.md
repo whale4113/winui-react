@@ -122,4 +122,4 @@ WebView2、MapControl、SystemBackdropElement、系统窗口拖动/非客户区�
 
 ## 验证边界
 
-自动化验证颜色值和关键尺寸、两种主题下的全部示例渲染与若干键盘/交互流程。当前环境没有已安装的原生 WinUI Gallery 基线，未完成与原生截图的逐像素差分验证。
+自动化验证颜色值和关键尺寸、两种主题下的全部示例渲染与若干键盘/交互流程。已安装原生 WinUI Gallery 3.0.4。系统截图、逐控件采集状态和剩余对照项见 visual-evidence/STATUS.md；截图采集不代表视觉通过。
